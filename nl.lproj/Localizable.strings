@@ -1,0 +1,85 @@
+/* Description for an inactive alert modifier */
+" (inactive)" = " (Inactief)";
+
+/* Description for auto-off alarm */
+"Auto-off alarm" = "Auto-uit alarm";
+
+/* Delivery status when bolusing */
+"Bolusing" = "Bolussen";
+
+/* Delivery status when bolusing and temp basal is running */
+"Bolusing with temp basal" = "Bolus met tijdelijk basaal";
+
+/* Pod state when deactivated */
+"Deactivated" = "Gedeactiveerd";
+
+/* Description for Empty reservoir pod fault */
+"Empty reservoir" = "Leeg reservoir";
+
+/* Description for expiration alert */
+"Expiration alert" = "Vervaldatum waarschuwing";
+
+/* Description for finish setup */
+"Finish setup " = "Voltooi installatie ";
+
+/* Pod initialized */
+"Initialized" = "Geïnitialiseerd";
+
+/* The format string for Internal pod fault (1: The fault code value) */
+"Internal pod fault %1$03d" = "Interne pod fout %1$03d";
+
+/* Description for MessageError invalidCrc */
+"Invalid CRC" = "Ongeldige CRC";
+
+/* Description for low reservoir alarm */
+"Low reservoir advisory alarm" = "Laag reservoir advies alarm";
+
+/* Pod alert state when no alerts are active */
+"No alerts" = "Geen foutmeldingen";
+
+/* Pod state when running above fifty units */
+"Normal" = "Normaal";
+
+/* Description for MessageError notEnoughData */
+"Not enough data" = "Niet genoeg gegevens";
+
+/* Description for Occlusion detected pod fault */
+"Occlusion detected" = "Occlusie gedetecteerd";
+
+/* Description for MessageError parsingError */
+"Parsing Error: " = "Parsing Error: ";
+
+/* Description for expiration advisory alarm */
+"Pod expiration advisory alarm" = "Pod vervaltijd advies alarm";
+
+/* Description for Pod expired pod fault */
+"Pod expired" = "Pod verlopen";
+
+/* Delivery status when pod is priming
+   Pod status when priming */
+"Priming" = "Priming";
+
+/* Description for shutdown imminent alarm */
+"Shutdown imminent alarm" = "Sluit af wegens dreigend alarm";
+
+/* Delivery status when insulin delivery is suspended */
+"Suspended" = "Onderbroken";
+
+/* Delivery status when temp basal is running */
+"Temp basal running" = "Tijdelijk basaal werkend";
+
+/* Description for MessageError invalidSequence */
+"Unexpected message sequence number" = "Onverwacht berichtreeksnummer";
+
+/* The format string for Unknown pod fault (1: The fault code value) */
+"Unknown pod fault %1$03d" = "Onbekende pod fout %1$03d";
+
+/* Format string for description of MessageError unknownValue. (1: value) (2: Type) */
+"Unknown Value (%1$@) for type %2$@" = "Onbekende waarde (%1$@) voor type %2$@";
+
+/* Format string for description of MessageError validationFailed. (1: description of validation failure) */
+"Validation failed: %1$@" = "Validatie mislukt: %1$@";
+
+/* Description waiting for pairing reminder */
+"Waiting for pairing reminder" = "Wacht op herinnering om te verbinden";
+

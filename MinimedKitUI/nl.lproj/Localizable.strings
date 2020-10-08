@@ -1,8 +1,11 @@
+/* Unit format string for an RSSI value in decibles */
+"%@ dB" = "%@ dB";
+
 /* The format string for displaying a frequency tune trial. Extra spaces added for emphesis: (1: frequency in MHz)(2: success count)(3: total count)(4: average RSSI) */
 "%1$@  %2$@/%3$@  %4$@" = "%1$@  %2$@/%3$@  %4$@";
 
 /* The format string describing number of basal schedule entries: (1: number of entries) */
-"%1$@ basal schedule entries\n" = "%1$@ basaal schemas\n";
+"%1$@ basal schedule entries\n" = "%1$@ basaal schema's\n";
 
 /* The format string describing units of insulin remaining: (1: number of units) */
 "%1$@ Units of insulin remaining\n" = "%1$@ Eenheden insuline resterend\n";
@@ -102,7 +105,7 @@
 "Firmware" = "Firmware";
 
 /* The title of the cell showing the pump firmware version */
-"Firmware Version" = "Firmware Version";
+"Firmware Version" = "Firmware versie";
 
 /* The title of the command to get pump model */
 "Get Pump Model" = "Lees pompmodel";
@@ -132,7 +135,7 @@
 "On Idle" = "Inactief";
 
 /* Pump find device instruction */
-"On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
+"On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "Ga naar het zoekscherm op je pomp en selecteer \"Apparaat zoeken\".\n\nHoofd Menu >\nGebruiksvoorzieningen >\nVerbind apparaten >\nAndere apparaten >\nAan >\nZoek Apparaat";
 
 /* The title text for the preferred insulin data source config */
 "Preferred Data Source" = "Voorkeur databron";
@@ -166,7 +169,7 @@
 "Reading pump status…" = "Lees pomp gegevens…";
 
 /* The title of the cell showing the pump region */
-"Region" = "Region";
+"Region" = "Regio";
 
 /* Button title to retry sentry setup */
 "Retry" = "Opnieuw proberen";
@@ -206,4 +209,5 @@
 "Unknown" = "Onbekend";
 
 /* The title of the cell showing uptime */
-"Uptime" = "Uptime";
+"Uptime" = "Actief";
+

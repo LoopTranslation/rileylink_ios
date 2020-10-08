@@ -1,3 +1,9 @@
+/* Description for an inactive alert modifier */
+" (inactive)" = " (inactive)";
+
+/* Unit format string for an RSSI value in decibles */
+"%@ dB" = "%@ dB";
+
 /* Description for auto-off alarm */
 "Auto-off alarm" = "Allarme spegnimento automatico";
 
@@ -22,6 +28,9 @@
 /* String describing a dose that was certainly scheduled */
 "Certain" = "Certa";
 
+/* Recovery suggestion when unexpected address received */
+"Crosstalk possible. Please move to a new location and try again" = "Crosstalk possible. Please move to a new location and try again";
+
 /* Pod state when pod has been deactivated */
 "Deactivated" = "Disattivato";
 
@@ -43,11 +52,20 @@
 /* Pod inititialized */
 "Initialized" = "Inizializzato";
 
+/* Status highlight that insulin delivery was suspended. */
+"Insulin Suspended" = "Insulin Suspended";
+
 /* The format string for Internal pod fault (1: The fault code value) */
 "Internal pod fault %1$03d" = "Errore interno Pod %1$03d";
 
 /* The format string describing a bolus that was interrupted. (1: The amount delivered)(2: The amount scheduled)(3: Start time of the dose)(4: duration)(5: scheduled certainty) */
 "InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@" = "BoloInterrotto: %1$@ U (%2$@ U previste) %3$@ %4$@ %5$@";
+
+/* Error message for when unexpected address is received (1: received address) (2: expected address) */
+"Invalid address 0x%x. Expected 0x%x" = "Invalid address 0x%1$x. Expected 0x%2$x";
+
+/* Description for MessageError invalidCrc */
+"Invalid CRC" = "Invalid CRC";
 
 /* Description for low reservoir alarm */
 "Low reservoir advisory alarm" = "Allarme di avviso livello serbatoio basso";
@@ -57,6 +75,12 @@
 
 /* Pod alert state when no alerts are active */
 "No alerts" = "Nessun avviso";
+
+/* Status highlight that a pump is out of insulin. */
+"No Insulin" = "No Insulin";
+
+/* Status highlight that when no pod is paired. */
+"No Pod" = "No Pod";
 
 /* Error message shown when no pod is paired */
 "No pod paired" = "Nessun Pod abbinato";
@@ -71,6 +95,9 @@
    Pod state when running above fifty units */
 "Normal" = "Normale";
 
+/* Description for MessageError notEnoughData */
+"Not enough data" = "Not enough data";
+
 /* Description for Occlusion detected pod fault */
 "Occlusion detected" = "Occlusione rilevata";
 
@@ -80,11 +107,17 @@
 /* Pod status after pairing */
 "Paired" = "Abbinato";
 
+/* Description for MessageError parsingError */
+"Parsing Error: " = "Parsing Error: ";
+
 /* Recovery suggestion when no response is received from pod */
 "Please bring your pod closer to the RileyLink and try again" = "Avvicina Pod a RileyLink e riprova";
 
 /* Recover suggestion shown when no pod is paired */
 "Please pair a new pod" = "Abbina nuovo Pod";
+
+/* Recovery suggestion when no response is received from pod */
+"Please try repositioning the pod or the RileyLink and try again" = "Please try repositioning the pod or the RileyLink and try again";
 
 /* Error message shown when user cannot pair because pod is already paired */
 "Pod already paired" = "Pod già abbinato";
@@ -101,6 +134,9 @@
 /* Description for Pod expired pod fault */
 "Pod expired" = "Pod scaduto";
 
+/* Inform the user that there is a pod fault. */
+"Pod Fault" = "Pod Fault";
+
 /* Format string for pod fault code */
 "Pod Fault: %1$@" = "Errore Pod: %1$@";
 
@@ -112,6 +148,9 @@
 
 /* Error message action could not be performed because pod is suspended */
 "Pod is suspended" = "Pod sospeso";
+
+/* Error message shown when pod sends ack instead of response */
+"Pod sent ack instead of response" = "Pod sent ack instead of response";
 
 /* Pod state when prime or cannula insertion has not completed in the time allotted */
 "Pod setup window expired" = "Finestra di configurazione Pod scaduta";
@@ -159,14 +198,26 @@
 /* The format string for pod expiration notification body (1: time until expiration) */
 "Time to replace your pod! Your pod will expire in %1$@" = "È ora di sostituire Pod! Pod scadrà tra %1$@";
 
+/* Recovery suggestion when ack received instead of response */
+"Try again" = "Try again";
+
 /* String describing a dose that was possibly scheduled */
 "Uncertain" = "Non certa";
+
+/* Description for MessageError invalidSequence */
+"Unexpected message sequence number" = "Unexpected message sequence number";
 
 /* Error message shown when empty response from pod was received */
 "Unexpected response from pod" = "Risposta inaspettata da Pod";
 
 /* The format string for Unknown pod fault (1: The fault code value) */
 "Unknown pod fault %1$03d" = "Errore Pod sconosciuto %1$03d";
+
+/* Format string for description of MessageError unknownValue. (1: value) (2: Type) */
+"Unknown Value (%1$@) for type %2$@" = "Unknown Value (%1$@) for type %2$@";
+
+/* Format string for description of MessageError validationFailed. (1: description of validation failure) */
+"Validation failed: %1$@" = "Validation failed: %1$@";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
 "Wait for existing bolus to finish, or cancel bolus" = "Attendi il termine del bolo esistente oppure annulla bolo";
@@ -176,3 +227,4 @@
 
 /* Description waiting for pairing reminder */
 "Waiting for pairing reminder" = "In attesa del promemoria di abbinamento";
+

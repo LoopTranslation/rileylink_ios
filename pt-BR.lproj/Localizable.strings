@@ -1,0 +1,85 @@
+/* Description for an inactive alert modifier */
+" (inactive)" = " (inactive)";
+
+/* Description for auto-off alarm */
+"Auto-off alarm" = "Auto-off alarm";
+
+/* Delivery status when bolusing */
+"Bolusing" = "Bolusing";
+
+/* Delivery status when bolusing and temp basal is running */
+"Bolusing with temp basal" = "Bolusing with temp basal";
+
+/* Pod state when deactivated */
+"Deactivated" = "Deactivated";
+
+/* Description for Empty reservoir pod fault */
+"Empty reservoir" = "Empty reservoir";
+
+/* Description for expiration alert */
+"Expiration alert" = "Expiration alert";
+
+/* Description for finish setup */
+"Finish setup " = "Finish setup ";
+
+/* Pod initialized */
+"Initialized" = "Initialized";
+
+/* The format string for Internal pod fault (1: The fault code value) */
+"Internal pod fault %1$03d" = "Internal pod fault %1$03d";
+
+/* Description for MessageError invalidCrc */
+"Invalid CRC" = "Invalid CRC";
+
+/* Description for low reservoir alarm */
+"Low reservoir advisory alarm" = "Low reservoir advisory alarm";
+
+/* Pod alert state when no alerts are active */
+"No alerts" = "No alerts";
+
+/* Pod state when running above fifty units */
+"Normal" = "Normal";
+
+/* Description for MessageError notEnoughData */
+"Not enough data" = "Not enough data";
+
+/* Description for Occlusion detected pod fault */
+"Occlusion detected" = "Occlusion detected";
+
+/* Description for MessageError parsingError */
+"Parsing Error: " = "Parsing Error: ";
+
+/* Description for expiration advisory alarm */
+"Pod expiration advisory alarm" = "Pod expiration advisory alarm";
+
+/* Description for Pod expired pod fault */
+"Pod expired" = "Pod expired";
+
+/* Delivery status when pod is priming
+   Pod status when priming */
+"Priming" = "Priming";
+
+/* Description for shutdown imminent alarm */
+"Shutdown imminent alarm" = "Shutdown imminent alarm";
+
+/* Delivery status when insulin delivery is suspended */
+"Suspended" = "Suspended";
+
+/* Delivery status when temp basal is running */
+"Temp basal running" = "Temp basal running";
+
+/* Description for MessageError invalidSequence */
+"Unexpected message sequence number" = "Unexpected message sequence number";
+
+/* The format string for Unknown pod fault (1: The fault code value) */
+"Unknown pod fault %1$03d" = "Unknown pod fault %1$03d";
+
+/* Format string for description of MessageError unknownValue. (1: value) (2: Type) */
+"Unknown Value (%1$@) for type %2$@" = "Unknown Value (%1$@) for type %2$@";
+
+/* Format string for description of MessageError validationFailed. (1: description of validation failure) */
+"Validation failed: %1$@" = "Validation failed: %1$@";
+
+/* Description waiting for pairing reminder */
+"Waiting for pairing reminder" = "Waiting for pairing reminder";
+

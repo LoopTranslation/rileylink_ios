@@ -1,3 +1,9 @@
+/* Description for an inactive alert modifier */
+" (inactive)" = " (inaktiv)";
+
+/* Unit format string for an RSSI value in decibles */
+"%@ dB" = "%@ dB";
+
 /* Description for auto-off alarm */
 "Auto-off alarm" = "Auto-av larm";
 
@@ -22,11 +28,14 @@
 /* String describing a dose that was certainly scheduled */
 "Certain" = "Säker";
 
+/* Recovery suggestion when unexpected address received */
+"Crosstalk possible. Please move to a new location and try again" = "Möjlig överhörning. Flytta till ny plats och försök igen";
+
 /* Pod state when pod has been deactivated */
 "Deactivated" = "Inaktiverad";
 
 /* Description for Empty reservoir pod fault */
-"Empty reservoir" = "Podfel, tom reservoarl";
+"Empty reservoir" = "Tom reservoar";
 
 /* Error message shown when empty response from pod was received */
 "Empty response from pod" = "Inget svar från pod";
@@ -38,16 +47,25 @@
 "Expiration alert" = "Larm om utgångsdatum";
 
 /* Description for finish setup */
-"Finish setup " = "Inställning färdig";
+"Finish setup " = "Slutför konfiguration ";
 
 /* Pod inititialized */
 "Initialized" = "Pod initialiserad";
 
+/* Status highlight that insulin delivery was suspended. */
+"Insulin Suspended" = "Insulintillförsel pausad";
+
 /* The format string for Internal pod fault (1: The fault code value) */
-"Internal pod fault %1$03d" = "Internt podfel %1$03d";
+"Internal pod fault %1$03d" = "Internt poddfel %1$03d";
 
 /* The format string describing a bolus that was interrupted. (1: The amount delivered)(2: The amount scheduled)(3: Start time of the dose)(4: duration)(5: scheduled certainty) */
 "InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@" = "AvbrutenBolus:  %1$@ E (%2$@ E schemalagd) %3$@ %4$@ %5$@";
+
+/* Error message for when unexpected address is received (1: received address) (2: expected address) */
+"Invalid address 0x%x. Expected 0x%x" = "Ogiltig adress 0x%1$x. Förväntade 0x%2$x";
+
+/* Description for MessageError invalidCrc */
+"Invalid CRC" = "Ogiltig CRC";
 
 /* Description for low reservoir alarm */
 "Low reservoir advisory alarm" = "Larm vid låg reservoarvolym";
@@ -58,11 +76,17 @@
 /* Pod alert state when no alerts are active */
 "No alerts" = "Inga larm";
 
+/* Status highlight that a pump is out of insulin. */
+"No Insulin" = "Inget insulin";
+
+/* Status highlight that when no pod is paired. */
+"No Pod" = "Ingen Podd";
+
 /* Error message shown when no pod is paired */
 "No pod paired" = "Ingen parkopplad";
 
 /* Error message shown when no response from pod was received */
-"No response from pod" = "Inget svar från pod";
+"No response from pod" = "Inget svar från podd";
 
 /* Error message shown when no response from pod was received */
 "No RileyLink available" = "Ingen RileyLink tillgänglig";
@@ -70,6 +94,9 @@
 /* Delivery status when basal is running
    Pod state when running above fifty units */
 "Normal" = "Normal";
+
+/* Description for MessageError notEnoughData */
+"Not enough data" = "Inte tillräckligt med data";
 
 /* Description for Occlusion detected pod fault */
 "Occlusion detected" = "Ocklusion upptäckt";
@@ -80,11 +107,17 @@
 /* Pod status after pairing */
 "Paired" = "Parkopplad";
 
+/* Description for MessageError parsingError */
+"Parsing Error: " = "Tolkningsfel: ";
+
 /* Recovery suggestion when no response is received from pod */
 "Please bring your pod closer to the RileyLink and try again" = "För din pod närmare din RileyLink och försök igen";
 
 /* Recover suggestion shown when no pod is paired */
 "Please pair a new pod" = "Var god parkoppla ny pod";
+
+/* Recovery suggestion when no response is received from pod */
+"Please try repositioning the pod or the RileyLink and try again" = "Pröva att flytta på podden eller din RileyLink och försök igen";
 
 /* Error message shown when user cannot pair because pod is already paired */
 "Pod already paired" = "Pod redan parkopplad";
@@ -101,20 +134,26 @@
 /* Description for Pod expired pod fault */
 "Pod expired" = "Pod har utgått";
 
+/* Inform the user that there is a pod fault. */
+"Pod Fault" = "Podd-fel";
+
 /* Format string for pod fault code */
-"Pod Fault: %1$@" = "Podfel: %1$@";
+"Pod Fault: %1$@" = "Podd-fel: %1$@";
 
 /* Error message when cannula insertion fails because the pod is in an unexpected state */
-"Pod is not in a state ready for cannula insertion." = "Pod är inte klar för att föra in kanyl";
+"Pod is not in a state ready for cannula insertion." = "Podd är inte färdig att föra in kanyl.";
 
 /* Error message when prime fails because the pod is in an unexpected state */
-"Pod is not in a state ready for priming." = "Pod är inte klar för att fyllas";
+"Pod is not in a state ready for priming." = "Podd är inte klar för att fyllas.";
 
 /* Error message action could not be performed because pod is suspended */
-"Pod is suspended" = "Pod är pausad";
+"Pod is suspended" = "Podd är pausad";
+
+/* Error message shown when pod sends ack instead of response */
+"Pod sent ack instead of response" = "Podd skickade ack istället för svar";
 
 /* Pod state when prime or cannula insertion has not completed in the time allotted */
-"Pod setup window expired" = "Tid för podinställning är överskriden";
+"Pod setup window expired" = "Tid för poddinställning har överskridits";
 
 /* Delivery status when pod is priming
    Pod status when priming */
@@ -159,14 +198,26 @@
 /* The format string for pod expiration notification body (1: time until expiration) */
 "Time to replace your pod! Your pod will expire in %1$@" = "Byt din pod! Din pod går ut om %1$@";
 
+/* Recovery suggestion when ack received instead of response */
+"Try again" = "Försök igen";
+
 /* String describing a dose that was possibly scheduled */
 "Uncertain" = "Osäker";
+
+/* Description for MessageError invalidSequence */
+"Unexpected message sequence number" = "Oväntat meddelandesekvensnummer";
 
 /* Error message shown when empty response from pod was received */
 "Unexpected response from pod" = "Oväntat svar från din pod";
 
 /* The format string for Unknown pod fault (1: The fault code value) */
-"Unknown pod fault %1$03d" = "Okänt podfel %1$03d";
+"Unknown pod fault %1$03d" = "Okänt poddfel %1$03d";
+
+/* Format string for description of MessageError unknownValue. (1: value) (2: Type) */
+"Unknown Value (%1$@) for type %2$@" = "Okänt värde (%1$@) för typ %2$@";
+
+/* Format string for description of MessageError validationFailed. (1: description of validation failure) */
+"Validation failed: %1$@" = "Validering misslyckades: %1$@";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
 "Wait for existing bolus to finish, or cancel bolus" = "Vänta på att pågående bolus är färdig, eller avbryt bolus";
@@ -176,3 +227,4 @@
 
 /* Description waiting for pairing reminder */
 "Waiting for pairing reminder" = "Väntar på påminnelse för parkoppling";
+

@@ -13,8 +13,14 @@
 /* The format string description of a BasalProfileStartPumpEvent. (1: The index of the profile)(2: The basal rate) */
 "Basal Profile %1$@: %2$@ U/hour" = "Basalprofil  %1$@: %2$@ E/timen";
 
+/* Error description when failure due to bolus in progress */
+"Bolus in Progress" = "Bolus in Progress";
+
 /* Pump error code when bolus is in progress */
 "Bolus in progress" = "Bolus pågår";
+
+/* Describing the Canada pump region */
+"Canada" = "Canada";
 
 /* Suggestions for diagnosing a command refused pump error */
 "Check that the pump is not suspended or priming, or has a percent temp basal type" = "Sjekk at pumpa ikke har stoppet tilførsel av insulin, at priming ikke foregår, eller har en  midlertidig prosentbasaltype pågående.";
@@ -34,6 +40,9 @@
 /* Describing the pump history insulin data source */
 "Event History" = "Hendelseshistorikk";
 
+/* Pump error code when invalid history page is requested */
+"History page does not exist" = "History page does not exist";
+
 /* Format string for failure reason. (1: The operation being performed) (2: The response data) */
 "Invalid response during %1$@: %2$@" = "Ugyldig respons ved %1$@: %2$@";
 
@@ -51,6 +60,9 @@
 
 /* Generic title of the minimed pump manager */
 "Minimed 500/700 Series" = "Minimed 500/700 series";
+
+/* Error description when no rileylink connected */
+"No RileyLink Connected" = "No RileyLink Connected";
 
 /* Describing the North America pump region */
 "North America" = "Nord Amerika";
@@ -84,6 +96,9 @@
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in percent) */
 "Temporary Basal: %1$d%%" = "Midlertidig basaldose: %1$d%%";
+
+/* Error description when storage fails */
+"Unable to store pump data" = "Unable to store pump data";
 
 /* The format string description of an unknown pump error code. (1: The specific error code raw value) */
 "Unknown pump error code: %1$@" = "Ukjent feilkode fra pumpe: %1$@";

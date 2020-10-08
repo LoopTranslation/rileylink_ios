@@ -1,11 +1,5 @@
-/* Accessibility format string for (1: localized volume)(2: time) */
-"%1$@ units remaining at %2$@" = "%1$@ enheter återstår kl. %2$@";
-
-/* The format string for displaying an offset from a time zone: (1: GMT)(2: -)(3: 4:00) */
-"%1$@%2$@%3$@" = "%1$@%2$@%3$@";
-
-/* Format string providing instructions for replacing pod due to a fault. (1: The fault description) */
-"%1$@. Insulin delivery has stopped. Please deactivate and remove pod." = "%1$@. Insulintillförseln har avbrutits. Inaktivera podden och byt till en ny podd.";
+/* Unit format string for an RSSI value in decibles */
+"%@ dB" = "%@ dB";
 
 /* Format string for delivered insulin. (1: The localized amount)
    Format string for insulin remaining in reservoir. (1: The localized amount) */
@@ -15,10 +9,13 @@
 "%@ U (Finished)" = "%@ E (Klar)";
 
 /* Format string for bolus progress. (1: The delivered amount) (2: The programmed amount) (3: the percent progress) */
-"%@ U of %@ U (%@)" = "%@ E av %@ E (%@)";
+"%@ U of %@ U (%@)" = "%1$@ E of %2$@ E (%3$@)";
 
 /* Format string for temp basal rate. (1: The localized amount) */
 "%@ U/hour" = "%@ E/h";
+
+/* Appends a full-stop to a statement */
+"%@." = "%@.";
 
 /* Format string for bolus percent progress. (1: Percent progress) */
 "%@%%" = "%@%%";
@@ -26,11 +23,17 @@
 /* Format string for reservoir reading when above or equal to maximum reading. (1: The localized amount) */
 "%@+ U" = "%@+ E";
 
-/* Appends a full-stop to a statement */
-"%@." = "%@.";
-
 /* Format string for reservoir volume. (1: The localized volume) */
 "%@U" = "%@E";
+
+/* Accessibility format string for (1: localized volume)(2: time) */
+"%1$@ units remaining at %2$@" = "%1$@ enheter återstår kl. %2$@";
+
+/* Format string providing instructions for replacing pod due to a fault. (1: The fault description) */
+"%1$@. Insulin delivery has stopped. Please deactivate and remove pod." = "%1$@. Insulintillförseln har avbrutits. Inaktivera podden och byt till en ny podd.";
+
+/* The format string for displaying an offset from a time zone: (1: GMT)(2: -)(3: 4:00) */
+"%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* The title of the cell showing the pod activated at time */
 "Active Time" = "Aktiv tid";
@@ -63,7 +66,7 @@
 "Change Time Zone" = "Ändra tidszon";
 
 /* Progress message for changing pod time. */
-"Changing time…" = "Ändra tid…";
+"Changing time…" = "Ändrar tid…";
 
 /* The title of the configuration section in settings */
 "Configuration" = "Konfiguration";
@@ -82,7 +85,7 @@
 "Delete Omnipod" = "Radera Omnipod";
 
 /* Title text for delivery limits */
-"Delivery Limits" = "Maxdosvärde";
+"Delivery Limits" = "Maxdoser";
 
 /* The title of the device information section in settings */
 "Device Information" = "Enhetsinformation";
@@ -90,17 +93,32 @@
 /* Title text for button to disable bolus beeps */
 "Disable Bolus Beeps" = "Stäng av bolusljud";
 
+/* Title text for button to disable confirmation beeps */
+"Disable Confirmation Beeps" = "Stäng av bekräftelseljud";
+
 /* Title text for button to enable bolus beeps */
 "Enable Bolus Beeps" = "Slå på bolusljud";
+
+/* Title text for button to enable confirmation beeps */
+"Enable Confirmation Beeps" = "Sätt på bekräftelseljud";
 
 /* The alert title for disable bolus beeps error */
 "Error disabling bolus beeps" = "Fel vid avstängning av bolusljud";
 
+/* The alert title for disable confirmation beeps error */
+"Error disabling confirmation beeps" = "Fel vid avstängning av bekräftelseljud";
+
+/* The alert title for emitting completion beep error */
+"Error emitting completion confirmation beep" = "Fel vid sändning av bekräftelseljud";
+
 /* The alert title for enable bolus beeps error */
 "Error enabling bolus beeps" = "Fel vid aktivering av bolusljud";
 
+/* The alert title for enable confirmation beeps error */
+"Error enabling confirmation beeps" = "Fel vid aktivering av bekräftelseljud";
+
 /* The alert title for a resume error */
-"Error Resuming" = "Fel vid återupptagande";
+"Error Resuming" = "Fel vid återuppta insulintillförsel";
 
 /* The alert title for a suspend error */
 "Error Suspending" = "Fel vid försök till paus";
@@ -175,7 +193,19 @@
 "Primed" = "Podden är fylld";
 
 /* The text of the loading label when priming */
-"Priming…" = "Podden fylls...";
+"Priming…" = "Podden fylls…";
+
+/* The title of the command to read the pod status */
+"Read Pod Status" = "Läs Podd-status";
+
+/* Progress message for reading Pod status. */
+"Read Pod Status…" = "Läs Podd-status…";
+
+/* The title of the command to read the pulse log */
+"Read Pulse Log" = "Läs pulslogg";
+
+/* Progress message for reading pulse log. */
+"Reading Pulse Log…" = "Läser pulslogg…";
 
 /* Label describing time remaining view */
 "Remaining" = "Återstår";
@@ -221,11 +251,15 @@
 /* Progress message for testing commands. */
 "Testing Commands…" = "Testar att skicka kommandon…";
 
+/* The title of the cell showing the pod TID */
+"TID" = "TID";
+
 /* The error message shown when Loop's basal schedule has more entries than the pod can support */
 "Too many entries" = "För många inmatningar";
 
 /* Instructions when pod cannot be deactivated */
-"Unable to deactivate pod. Please continue and pair a new one." = "Kunde inte deaktivera podden. Var god fortsätt genom att parkoppla en ny podd.";
+"Unable to deactivate pod. Please continue and pair a new one." = "Kunde inte inaktivera podden. Var god fortsätt genom att parkoppla en ny podd.";
 
 /* The detail text for delivered insulin when no measurement is available */
 "Unknown" = "Okänd";
+

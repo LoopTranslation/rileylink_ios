@@ -1,3 +1,9 @@
+/* Description for an inactive alert modifier */
+" (inactive)" = " (inactive)";
+
+/* Unit format string for an RSSI value in decibles */
+"%@ dB" = "%@ dB";
+
 /* Description for auto-off alarm */
 "Auto-off alarm" = "アラーム自動オフ";
 
@@ -8,7 +14,7 @@
 "Bolus in progress" = "ボーラスが進行中";
 
 /* The format string describing a bolus. (1: The amount delivered)(2: Start time of the dose)(3: duration)(4: scheduled certainty) */
-"ボーラス: %1$@U %2$@ %3$@ %4$@" = "Bolus: %1$@U %2$@ %3$@ %4$@";
+"Bolus: %1$@U %2$@ %3$@ %4$@" = "Bolus: %1$@U %2$@ %3$@ %4$@";
 
 /* Delivery status when bolusing */
 "Bolusing" = "ボーラス注入中";
@@ -21,6 +27,9 @@
 
 /* String describing a dose that was certainly scheduled */
 "Certain" = "確実";
+
+/* Recovery suggestion when unexpected address received */
+"Crosstalk possible. Please move to a new location and try again" = "Crosstalk possible. Please move to a new location and try again";
 
 /* Pod state when pod has been deactivated */
 "Deactivated" = "停止されました";
@@ -40,14 +49,23 @@
 /* Description for finish setup */
 "Finish setup " = "設定終了";
 
-/* Pod initialized */
+/* Pod inititialized */
 "Initialized" = "初期化完了";
+
+/* Status highlight that insulin delivery was suspended. */
+"Insulin Suspended" = "Insulin Suspended";
 
 /* The format string for Internal pod fault (1: The fault code value) */
 "Internal pod fault %1$03d" = "インターナルポッドエラー %1$03d";
 
 /* The format string describing a bolus that was interrupted. (1: The amount delivered)(2: The amount scheduled)(3: Start time of the dose)(4: duration)(5: scheduled certainty) */
 "InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@" = "ボーラス中断: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@";
+
+/* Error message for when unexpected address is received (1: received address) (2: expected address) */
+"Invalid address 0x%x. Expected 0x%x" = "Invalid address 0x%1$x. Expected 0x%2$x";
+
+/* Description for MessageError invalidCrc */
+"Invalid CRC" = "Invalid CRC";
 
 /* Description for low reservoir alarm */
 "Low reservoir advisory alarm" = "リザーバ残量低下アラーム";
@@ -57,6 +75,12 @@
 
 /* Pod alert state when no alerts are active */
 "No alerts" = "アラートなし";
+
+/* Status highlight that a pump is out of insulin. */
+"No Insulin" = "No Insulin";
+
+/* Status highlight that when no pod is paired. */
+"No Pod" = "No Pod";
 
 /* Error message shown when no pod is paired */
 "No pod paired" = "ポッドペアリングできません";
@@ -71,6 +95,9 @@
    Pod state when running above fifty units */
 "Normal" = "通常";
 
+/* Description for MessageError notEnoughData */
+"Not enough data" = "Not enough data";
+
 /* Description for Occlusion detected pod fault */
 "Occlusion detected" = "閉塞があります";
 
@@ -80,11 +107,17 @@
 /* Pod status after pairing */
 "Paired" = "ペアリングされました";
 
+/* Description for MessageError parsingError */
+"Parsing Error: " = "Parsing Error: ";
+
 /* Recovery suggestion when no response is received from pod */
 "Please bring your pod closer to the RileyLink and try again" = "ポッドを RileyLink に近づけてやり直してください";
 
 /* Recover suggestion shown when no pod is paired */
 "Please pair a new pod" = "新しいポッドをペアリングしてください";
+
+/* Recovery suggestion when no response is received from pod */
+"Please try repositioning the pod or the RileyLink and try again" = "Please try repositioning the pod or the RileyLink and try again";
 
 /* Error message shown when user cannot pair because pod is already paired */
 "Pod already paired" = "既にペアリングされています";
@@ -101,6 +134,9 @@
 /* Description for Pod expired pod fault */
 "Pod expired" = "ポッド期限切れ";
 
+/* Inform the user that there is a pod fault. */
+"Pod Fault" = "Pod Fault";
+
 /* Format string for pod fault code */
 "Pod Fault: %1$@" = "ポッドエラー: %1$@";
 
@@ -112,6 +148,9 @@
 
 /* Error message action could not be performed because pod is suspended */
 "Pod is suspended" = "ポッドが一時停止";
+
+/* Error message shown when pod sends ack instead of response */
+"Pod sent ack instead of response" = "Pod sent ack instead of response";
 
 /* Pod state when prime or cannula insertion has not completed in the time allotted */
 "Pod setup window expired" = "ポッドの設定期限切れ";
@@ -159,20 +198,33 @@
 /* The format string for pod expiration notification body (1: time until expiration) */
 "Time to replace your pod! Your pod will expire in %1$@" = "ポッドの交換時です。 %1$@でポッドの期限が切れます。";
 
+/* Recovery suggestion when ack received instead of response */
+"Try again" = "Try again";
+
 /* String describing a dose that was possibly scheduled */
 "Uncertain" = "不明";
 
+/* Description for MessageError invalidSequence */
+"Unexpected message sequence number" = "Unexpected message sequence number";
+
 /* Error message shown when empty response from pod was received */
 "Unexpected response from pod" = "ポッドから予期せぬ反応";
-　
+
 /* The format string for Unknown pod fault (1: The fault code value) */
-"Unknown pod fault %1$03d" = "不明なポッドエラー %1$03d";
+"Unknown pod fault %1$03d" = "Unknown pod fault %1$03d";
+
+/* Format string for description of MessageError unknownValue. (1: value) (2: Type) */
+"Unknown Value (%1$@) for type %2$@" = "Unknown Value (%1$@) for type %2$@";
+
+/* Format string for description of MessageError validationFailed. (1: description of validation failure) */
+"Validation failed: %1$@" = "Validation failed: %1$@";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
-"Wait for existing bolus to finish, or cancel bolus" = "進行中のボーラスが完了するのを待つか、ボーラスをキャンセルしてください。";
+"Wait for existing bolus to finish, or cancel bolus" = "Wait for existing bolus to finish, or cancel bolus";
 
 /* Recovery suggestion when operation could not be completed due to existing temp basal in progress */
-"Wait for existing temp basal to finish, or suspend to cancel" = "進行中の一時基礎が完了するのを待つか、一時基礎を停止してください";
+"Wait for existing temp basal to finish, or suspend to cancel" = "Wait for existing temp basal to finish, or suspend to cancel";
 
 /* Description waiting for pairing reminder */
-"Waiting for pairing reminder" = "ペアリングリマインダー待機中";
+"Waiting for pairing reminder" = "Waiting for pairing reminder";
+
