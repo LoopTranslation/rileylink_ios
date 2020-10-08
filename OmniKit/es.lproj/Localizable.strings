@@ -4,8 +4,15 @@
 /* Unit format string for an RSSI value in decibles */
 "%@ dB" = "%@ dB";
 
+/* Format string for activation time exceeded
+   Pod state when activation not completed in the time allowed */
+"Activation time exceeded" = "Activation time exceeded";
+
 /* Description for auto-off alarm */
 "Auto-off alarm" = "Alarma de apagado automático";
+
+/* Pod state when basal initialized */
+"Basal initialized" = "Basal initialized";
 
 /* Pod state when running below fifty units */
 "Below 50 units" = "Menos de 50 unidades";
@@ -28,6 +35,9 @@
 /* String describing a dose that was certainly scheduled */
 "Certain" = "Programación acertada";
 
+/* Format string for invalid message error code (1: error code number) */
+"Command error %1$u" = "Command error %1$u";
+
 /* Recovery suggestion when unexpected address received */
 "Crosstalk possible. Please move to a new location and try again" = "Crosstalk possible. Please move to a new location and try again";
 
@@ -46,11 +56,17 @@
 /* Description for expiration alert */
 "Expiration alert" = "Alerta de caducidad";
 
+/* Pod state when fault event has occurred */
+"Fault event occurred" = "Fault event occurred";
+
 /* Description for finish setup */
 "Finish setup " = "Fin de la configuración";
 
 /* Pod inititialized */
 "Initialized" = " iniciado";
+
+/* Pod state when inserting cannula */
+"Inserting cannula" = "Inserting cannula";
 
 /* Status highlight that insulin delivery was suspended. */
 "Insulin Suspended" = "Insulin Suspended";
@@ -64,8 +80,14 @@
 /* Error message for when unexpected address is received (1: received address) (2: expected address) */
 "Invalid address 0x%x. Expected 0x%x" = "Invalid address 0x%1$x. Expected 0x%2$x";
 
+/* Description for MessageError invalidSequence */
+"Invalid address: (%1$@)" = "Invalid address: (%1$@)";
+
 /* Description for MessageError invalidCrc */
 "Invalid CRC" = "Invalid CRC";
+
+/* Pod state when running with fifty or less units */
+"Low reservoir" = "Low reservoir";
 
 /* Description for low reservoir alarm */
 "Low reservoir advisory alarm" = "Alarma de aviso de depósito bajo";
@@ -73,8 +95,14 @@
 /* Recovery suggestion when no RileyLink is available */
 "Make sure your RileyLink is nearby and powered on" = "Asegúrese de que su RileyLink está cerca y encendido";
 
+/* Pod memory initialized */
+"Memory initialized" = "Memory initialized";
+
 /* Pod alert state when no alerts are active */
 "No alerts" = "No hay alertas";
+
+/* Description for Fault Event Code .noFaults */
+"No faults" = "No faults";
 
 /* Status highlight that a pump is out of insulin. */
 "No Insulin" = "No Insulin";
@@ -104,17 +132,32 @@
 /* Generic title of the omnipod pump manager */
 "Omnipod" = "Omnipod";
 
+/* Pod state oneNotUsed */
+"oneNotUsed" = "oneNotUsed";
+
 /* Pod status after pairing */
 "Paired" = "Emparejado";
 
+/* Pod status when pairing completed */
+"Paired completed" = "Paired completed";
+
 /* Description for MessageError parsingError */
 "Parsing Error: " = "Parsing Error: ";
+
+/* Recovery suggestion on unexpected pod change */
+"Please bring only original pod in range or deactivate original pod" = "Please bring only original pod in range or deactivate original pod";
 
 /* Recovery suggestion when no response is received from pod */
 "Please bring your pod closer to the RileyLink and try again" = "Por favor, acerque su pod al RileyLink e inténtelo de nuevo";
 
 /* Recover suggestion shown when no pod is paired */
 "Please pair a new pod" = "Por favor, empareje un nuevo pod";
+
+/* Recovery suggestion when pairing signal strength is too high */
+"Please reposition the RileyLink further from the pod" = "Please reposition the RileyLink further from the pod";
+
+/* Recovery suggestion when pairing signal strength is too low */
+"Please reposition the RileyLink relative to the pod" = "Please reposition the RileyLink relative to the pod";
 
 /* Recovery suggestion when no response is received from pod */
 "Please try repositioning the pod or the RileyLink and try again" = "Please try repositioning the pod or the RileyLink and try again";
@@ -155,9 +198,15 @@
 /* Pod state when prime or cannula insertion has not completed in the time allotted */
 "Pod setup window expired" = "La pantalla de configuración del pod ha caducado";
 
+/* Format string for poor pod signal strength */
+"Poor signal strength" = "Poor signal strength";
+
 /* Delivery status when pod is priming
    Pod status when priming */
 "Priming" = "Purgando";
+
+/* Pod state when priming completed */
+"Priming completed" = "Priming completed";
 
 /* Pod state when ready for basal programming */
 "Ready for basal programming" = "Listo para programar basales";
@@ -165,14 +214,23 @@
 /* Pod state when ready for cannula insertion */
 "Ready to insert cannula" = "Listo para insertar la cánula";
 
+/* Pod pairing reminder initialized */
+"Reminder initialized" = "Reminder initialized";
+
 /* The format string describing a resume. (1: Time)(2: Scheduled certainty */
 "Resume: %1$@ %2$@" = "Reanudar: %1$@ %2$@";
 
 /* Delivery status when basal is running */
 "Scheduled Basal" = "Basal programada";
 
+/* Delivery status when scheduled basal is running */
+"Scheduled basal" = "Scheduled basal";
+
 /* Description for shutdown imminent alarm */
 "Shutdown imminent alarm" = "Apagar la alarma inminente";
+
+/* Format string for pod signal strength too high */
+"Signal strength too high" = "Signal strength too high";
 
 /* The format string describing a suspend. (1: Time)(2: Scheduled certainty */
 "Suspend: %1$@ %2$@" = "Suspender: %1$@ %2$@";
@@ -195,17 +253,26 @@
 /* The format string describing a temp basal. (1: The rate)(2: Start time)(3: duration)(4: volume)(5: scheduled certainty */
 "TempBasal: %1$@ U/hour %2$@ %3$@ %4$@ U %5$@" = "BasalTemporal: %1$@ U/hora %2$@ %3$@ %4$@ U %5$@";
 
+/* Pod state threeNotUsed */
+"threeNotUsed" = "threeNotUsed";
+
 /* The format string for pod expiration notification body (1: time until expiration) */
 "Time to replace your pod! Your pod will expire in %1$@" = "Es hora de reemplazar el pod! El pod expira en %1$@";
 
 /* Recovery suggestion when ack received instead of response */
 "Try again" = "Try again";
 
+/* Pod state twoNotUsed */
+"twoNotUsed" = "twoNotUsed";
+
 /* String describing a dose that was possibly scheduled */
 "Uncertain" = "Incierto";
 
 /* Description for MessageError invalidSequence */
 "Unexpected message sequence number" = "Unexpected message sequence number";
+
+/* Format string for unexpected pod change */
+"Unexpected pod change" = "Unexpected pod change";
 
 /* Error message shown when empty response from pod was received */
 "Unexpected response from pod" = "Respuesta inesperada del pod";

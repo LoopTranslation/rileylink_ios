@@ -1,8 +1,14 @@
 /* Description for an inactive alert modifier */
 " (inactive)" = " (Inaktiv)";
 
+/* Pod state when activation not completed in the time allowed */
+"Activation time exceeded" = "Activation time exceeded";
+
 /* Description for auto-off alarm */
 "Auto-off alarm" = "Auto-av larm";
+
+/* Pod state when basal initialized */
+"Basal initialized" = "Basal initialized";
 
 /* Delivery status when bolusing */
 "Bolusing" = "Ger bolus";
@@ -19,23 +25,41 @@
 /* Description for expiration alert */
 "Expiration alert" = "Larm om utgångsdatum";
 
+/* Pod state when fault event has occurred */
+"Fault event occurred" = "Fault event occurred";
+
 /* Description for finish setup */
 "Finish setup " = "Slutför konfigurationen ";
 
 /* Pod initialized */
 "Initialized" = "Initierad";
 
+/* Pod state when inserting cannula */
+"Inserting cannula" = "Inserting cannula";
+
 /* The format string for Internal pod fault (1: The fault code value) */
 "Internal pod fault %1$03d" = "Internt poddfel %1$03d";
+
+/* Description for MessageError invalidSequence */
+"Invalid address: (%1$@)" = "Invalid address: (%1$@)";
 
 /* Description for MessageError invalidCrc */
 "Invalid CRC" = "Ogiltig CRC";
 
+/* Pod state when running with fifty or less units */
+"Low reservoir" = "Low reservoir";
+
 /* Description for low reservoir alarm */
 "Low reservoir advisory alarm" = "Larm vid låg reservoarvolym";
 
+/* Pod memory initialized */
+"Memory initialized" = "Memory initialized";
+
 /* Pod alert state when no alerts are active */
 "No alerts" = "Inga larm";
+
+/* Description for Fault Event Code .noFaults */
+"No faults" = "No faults";
 
 /* Pod state when running above fifty units */
 "Normal" = "Normal";
@@ -45,6 +69,12 @@
 
 /* Description for Occlusion detected pod fault */
 "Occlusion detected" = "Ocklusion upptäckt";
+
+/* Pod state oneNotUsed */
+"oneNotUsed" = "oneNotUsed";
+
+/* Pod status when pairing completed */
+"Paired completed" = "Paired completed";
 
 /* Description for MessageError parsingError */
 "Parsing Error: " = "Tolkningsfel: ";
@@ -59,6 +89,15 @@
    Pod status when priming */
 "Priming" = "Podd fylls på";
 
+/* Pod state when priming completed */
+"Priming completed" = "Priming completed";
+
+/* Pod pairing reminder initialized */
+"Reminder initialized" = "Reminder initialized";
+
+/* Delivery status when scheduled basal is running */
+"Scheduled basal" = "Scheduled basal";
+
 /* Description for shutdown imminent alarm */
 "Shutdown imminent alarm" = "Larm för omedelbar avstängning";
 
@@ -67,6 +106,12 @@
 
 /* Delivery status when temp basal is running */
 "Temp basal running" = "Temporär basal pågår";
+
+/* Pod state threeNotUsed */
+"threeNotUsed" = "threeNotUsed";
+
+/* Pod state twoNotUsed */
+"twoNotUsed" = "twoNotUsed";
 
 /* Description for MessageError invalidSequence */
 "Unexpected message sequence number" = "Oväntat meddelandesekvensnummer";
