@@ -27,7 +27,7 @@
 "%@U" = "%@E";
 
 /* The format string for minutes (1: number of minutes string) */
-"%1$@ minutes" = "%1$@ minutes";
+"%1$@ minutes" = "%1$@ minuter";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
 "%1$@ units remaining at %2$@" = "%1$@ enheter återstår kl. %2$@";
@@ -39,7 +39,7 @@
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* Instructions when deactivating pod that didn't complete activation in time. */
-"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod.";
+"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Aktiveringstid överskriden. Ofullständigt inställd podd måste inaktiveras före parkoppling av ny podd. Inaktivera och kasta den gamla podden.";
 
 /* The title of the cell showing the pod activated at time */
 "Active Time" = "Aktiv tid";
@@ -48,7 +48,7 @@
 "Alarms" = "Larm";
 
 /* The format string for Alerts: (1: the alerts string) */
-"Alerts: %1$@\n" = "Alerts: %1$@\n";
+"Alerts: %1$@\n" = "Varningar: %1$@\n";
 
 /* Confirmation message for shutting down a pod */
 "Are you sure you want to shutdown this pod?" = "Är du säker att du vill stänga av denna podd?";
@@ -97,13 +97,13 @@
 "Delivery Limits" = "Maxdoser";
 
 /* The format string for Delivery Status: (1: delivery status string) */
-"Delivery Status: %1$@\n" = "Delivery Status: %1$@\n";
+"Delivery Status: %1$@\n" = "Status på insulintillförsel: %1$@\n";
 
 /* The title of the device information section in settings */
 "Device Information" = "Enhetsinformation";
 
 /* The title of the configuration section in settings */
-"Diagnostics" = "Diagnostics";
+"Diagnostics" = "Diagnostik";
 
 /* Title text for button to disable bolus beeps */
 "Disable Bolus Beeps" = "Stäng av bolusljud";
@@ -151,10 +151,10 @@
 "Fault" = "Fel";
 
 /* The format string for fault time: (1: fault time string) */
-"Fault time: %1$@\n" = "Fault time: %1$@\n";
+"Fault time: %1$@\n" = "Feltid: %1$@\n";
 
 /* The format string for a fault: (1: The fault description) */
-"Fault: %1$@\n" = "Fault: %1$@\n";
+"Fault: %1$@\n" = "Fel: %1$@\n";
 
 /* The title of the command to finish pod setup */
 "Finish pod setup" = "Gör färdigt poddinställningen";
@@ -163,7 +163,7 @@
 "Greater than %1$@ units remaining at %2$@" = "Fler än %1$@ enheter återstår kl. %2$@";
 
 /* Additional pairing recovery suggestion on multiple pairing failures */
-"If the problem persists, move to a new area and try again" = "If the problem persists, move to a new area and try again";
+"If the problem persists, move to a new area and try again" = "Om problemet kvarstår, flytta dig till ny plats och försök igen";
 
 /* Instructions when deactivating pod that has been paired, but not attached. */
 "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Ofullständigt inställd podd måste inaktiveras före parkoppling av ny podd. Inaktivera och kasta den gamla podden.";
@@ -181,7 +181,7 @@
 "Invalid entry" = "Ogiltig inmatning";
 
 /* The format string for Last Bolus Not Delivered: (1: bolus not delivered string) */
-"Last Bolus Not Delivered: %1$@ U\n" = "Last Bolus Not Delivered: %1$@ U\n";
+"Last Bolus Not Delivered: %1$@ U\n" = "Sista bolus ej given: %1$@ E\n";
 
 /* The title of the cell showing the pod lot id */
 "Lot" = "Lot";
@@ -205,7 +205,7 @@
 "Play Test Beeps" = "Spela upp testljud";
 
 /* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken.";
+"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Kommandot för uppspelning av testljud skickades.\n\nOm du inte hörde några pip från din podd, är det troligt att piezohögtalaren i din podd är sönder.";
 
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Spelar upp testljud…";
@@ -214,28 +214,25 @@
 "PM Version" = "PM-version";
 
 /* The format string for Pod Active: (1: Pod active time string) */
-"Pod Active: %1$@\n" = "Pod Active: %1$@\n";
+"Pod Active: %1$@\n" = "Podd aktiv: %1$@\n";
 
 /* Label describing pod age view */
 "Pod Age" = "Poddålder";
 
 /* The title of the device information section in settings */
-"Pod Details" = "Pod Details";
+"Pod Details" = "Podd-detaljer";
 
 /* Title of the pod settings view controller */
 "Pod Settings" = "Poddinställningar";
 
 /* The format string for previous pod progress: (1: previous pod progress string) */
-"Previous pod progress: %1$@\n" = "Previous pod progress: %1$@\n";
+"Previous pod progress: %1$@\n" = "Föregående poddprogress: %1$@\n";
 
 /* The text of the loading label when pod is primed */
 "Primed" = "Podden är fylld";
 
 /* The text of the loading label when priming */
 "Priming…" = "Podden fylls…";
-
-/* The format string for total insulin pulses (1: total pulses in units) */
-"Pulses (incl. prime & insert): %1$@ U\n" = "Pulses (incl. prime & insert): %1$@ U\n";
 
 /* The title of the command to read the pod status */
 "Read Pod Status" = "Läs Podd-status";
@@ -250,7 +247,7 @@
 "Reading Pulse Log…" = "Läser pulslogg…";
 
 /* The format string for receiverLowGain: (1: receiverLowGain) */
-"Receiver Low Gain: %1$@\n" = "Receiver Low Gain: %1$@\n";
+"Receiver Low Gain: %1$@\n" = "Mottagare Low Gain: %1$@\n";
 
 /* Label describing time remaining view */
 "Remaining" = "Återstår";
@@ -266,7 +263,7 @@
 "Reservoir" = "Reservoar";
 
 /* The format string for Reservoir Level: (1: reservoir level string) */
-"Reservoir Level: %1$@ U\n" = "Reservoir Level: %1$@ U\n";
+"Reservoir Level: %1$@ U\n" = "Insulinreservoarnivå: %1$@ E\n";
 
 /* Button title for retrying pod deactivation */
 "Retry Pod Deactivation" = "Försök inaktivera podden igen";
