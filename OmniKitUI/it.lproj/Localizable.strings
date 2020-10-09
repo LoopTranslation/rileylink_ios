@@ -234,9 +234,6 @@
 /* The text of the loading label when priming */
 "Priming…" = "Caricamento in corso";
 
-/* The format string for total insulin pulses (1: total pulses in units) */
-"Pulses (incl. prime & insert): %1$@ U\n" = "Pulses (incl. prime & insert): %1$@ U\n";
-
 /* The title of the command to read the pod status */
 "Read Pod Status" = "Read Pod Status";
 
