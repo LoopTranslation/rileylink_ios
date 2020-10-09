@@ -24,10 +24,10 @@
 "Bolus: %1$@U %2$@ %3$@ %4$@" = "Bolus: %1$@E %2$@ %3$@ %4$@";
 
 /* Delivery status when bolusing */
-"Bolusing" = "Indgiver bolus";
+"Bolusing" = "Afgiver bolus";
 
 /* Delivery status when bolusing and temp basal is running */
-"Bolusing with temp basal" = "Indgiver bolus med midlertidig basal";
+"Bolusing with temp basal" = "Afgiver bolus med midlertidig basal";
 
 /* Pod state when inserting cannula */
 "Cannula inserting" = "Indfører kanyle";
@@ -48,7 +48,7 @@
 "Empty reservoir" = "Tomt reservoir";
 
 /* Error message shown when empty response from pod was received */
-"Empty response from pod" = "Ingen svar fra pod";
+"Empty response from pod" = "Svaret fra pod'en er tom";
 
 /* Pod state error event logged shutting down */
 "Error event logged, shutting down" = "Fejl hændelse logget, lukker ned";
@@ -233,13 +233,13 @@
 "Signal strength too high" = "Signalstyrken er for høj";
 
 /* The format string describing a suspend. (1: Time)(2: Scheduled certainty */
-"Suspend: %1$@ %2$@" = "Pause: %1$@ %2$@";
+"Suspend: %1$@ %2$@" = "Suspender: %1$@ %2$@";
 
 /* Delivery status when insulin delivery is suspended */
 "Suspended" = "Stoppet";
 
 /* Pod tank fill completed */
-"Tank fill completed" = "Reservoir påfyldning komplet";
+"Tank fill completed" = "Reservoir påfyldning udført";
 
 /* Pod power to motor activated */
 "Tank power activated" = "Reservoir strøm aktiveret";

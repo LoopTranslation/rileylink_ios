@@ -175,14 +175,14 @@
 "Retry" = "Prøv igen";
 
 /* The title of the command to fetch RileyLink statistics */
-"RileyLink Statistics" = "RileyLink Statistik";
+"RileyLink Statistics" = "RileyLink statistik";
 
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "Gem på pumpen…";
 
 /* The title of the command to send a button press */
-"Send Button Press" = "Send knappe tryk";
+"Send Button Press" = "Send \"knap tryk\"";
 
 /* Progress message for sending button press to pump. */
 "Sending button press…" = "Sender knappe tryk…";
@@ -191,7 +191,7 @@
 "Signal Strength" = "Signal styrke";
 
 /* A message indicating a command succeeded */
-"Succeeded" = "Lykkedes";
+"Succeeded" = "Gennemført";
 
 /* The format string describing pump suspended state: (1: suspended) */
 "Suspended: %1$@\n" = "Suspenderet: %1$@\n";

@@ -234,6 +234,9 @@
 /* The text of the loading label when priming */
 "Priming…" = "Klargør…";
 
+/* The format string for Pulse Count (1: pulse count) */
+"Pulse Count: %1$d\n" = "Pulse Count: %1$d\n";
+
 /* The title of the command to read the pod status */
 "Read Pod Status" = "Læs pod-status";
 
