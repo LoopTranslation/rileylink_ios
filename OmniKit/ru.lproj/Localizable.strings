@@ -174,10 +174,13 @@
 /* The title for pod expiration notification */
 "Pod Expiration Notice" = "Сообщение об окончании гарантийного срока Omnipod ";
 
+/* Highlight string for pod expired (80hrs). */
+"Pod Expired" = "Pod Expired";
+
 /* Description for Pod expired pod fault */
 "Pod expired" = "Срок гарантии Omnipod истек";
 
-/* Inform the user that there is a pod fault. */
+/* Highlight string for pod faults. */
 "Pod Fault" = "Pod Fault";
 
 /* Format string for pod fault code */
