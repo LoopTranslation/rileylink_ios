@@ -9,7 +9,7 @@
 "%@ U (Finished)" = "%@ U (valmis)";
 
 /* Format string for bolus progress. (1: The delivered amount) (2: The programmed amount) (3: the percent progress) */
-"%@ U of %@ U (%@)" = "%1$@ U of %2$@ U (%3$@)";
+"%@ U of %@ U (%@)" = "%1$@ U / %2$@ U (%3$@)";
 
 /* Format string for temp basal rate. (1: The localized amount) */
 "%@ U/hour" = "%@ U/tunti";
@@ -24,10 +24,10 @@
 "%@+ U" = "%@+ U";
 
 /* Format string for reservoir volume. (1: The localized volume) */
-"%@U" = "%@U";
+"%@U" = "%@ U";
 
 /* The format string for minutes (1: number of minutes string) */
-"%1$@ minutes" = "%1$@ minutes";
+"%1$@ minutes" = "%1$@ minuuttia";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
 "%1$@ units remaining at %2$@" = "%1$@ yksikköä jäljellä %2$@";
@@ -39,7 +39,7 @@
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* Instructions when deactivating pod that didn't complete activation in time. */
-"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod.";
+"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Aktivointiaika ylittyi. Pumppu on poistettava käytöstä ennen uuden yhdistämistä. Poista pumppu käytöstä ja hävitä se.";
 
 /* The title of the cell showing the pod activated at time */
 "Active Time" = "Aktiivinen aika";
@@ -48,7 +48,7 @@
 "Alarms" = "Hälytykset";
 
 /* The format string for Alerts: (1: the alerts string) */
-"Alerts: %1$@\n" = "Alerts: %1$@\n";
+"Alerts: %1$@\n" = "Hälytykset: %1$@\n";
 
 /* Confirmation message for shutting down a pod */
 "Are you sure you want to shutdown this pod?" = "Haluatko varmasti sammuttaa tämän pumpun?";
@@ -97,13 +97,13 @@
 "Delivery Limits" = "Annostelurajat";
 
 /* The format string for Delivery Status: (1: delivery status string) */
-"Delivery Status: %1$@\n" = "Delivery Status: %1$@\n";
+"Delivery Status: %1$@\n" = "Annostelun tila: %1$@\n";
 
 /* The title of the device information section in settings */
 "Device Information" = "Laitteen tiedot";
 
 /* The title of the configuration section in settings */
-"Diagnostics" = "Diagnostics";
+"Diagnostics" = "Diagnostiikka";
 
 /* Title text for button to disable bolus beeps */
 "Disable Bolus Beeps" = "Laita bolusäänet pois";
@@ -151,10 +151,10 @@
 "Fault" = "Virhe";
 
 /* The format string for fault time: (1: fault time string) */
-"Fault time: %1$@\n" = "Fault time: %1$@\n";
+"Fault time: %1$@\n" = "Vian aika: %1$@\n";
 
 /* The format string for a fault: (1: The fault description) */
-"Fault: %1$@\n" = "Fault: %1$@\n";
+"Fault: %1$@\n" = "Vika: %1$@\n";
 
 /* The title of the command to finish pod setup */
 "Finish pod setup" = "Lopeta pumpun asennus";
@@ -163,7 +163,7 @@
 "Greater than %1$@ units remaining at %2$@" = "Enemmän kuin %1$@ yksikköä jäljellä klo %2$@";
 
 /* Additional pairing recovery suggestion on multiple pairing failures */
-"If the problem persists, move to a new area and try again" = "If the problem persists, move to a new area and try again";
+"If the problem persists, move to a new area and try again" = "Jos ongelma toistuu, siirry uuteen paikkaa ja yritä uudelleen";
 
 /* Instructions when deactivating pod that has been paired, but not attached. */
 "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Puutteellisesti asennettu pumppu täytyy deaktivoida ennen kuin uusi pumppu voidaan yhdistää. Deaktivoi ja hylkää pumppu.";
@@ -181,7 +181,7 @@
 "Invalid entry" = "Virheellinen merkintä";
 
 /* The format string for Last Bolus Not Delivered: (1: bolus not delivered string) */
-"Last Bolus Not Delivered: %1$@ U\n" = "Last Bolus Not Delivered: %1$@ U\n";
+"Last Bolus Not Delivered: %1$@ U\n" = "Viim. bolusta ei annosteltu: %1$@ U\n";
 
 /* The title of the cell showing the pod lot id */
 "Lot" = "Lot";
@@ -205,7 +205,7 @@
 "Play Test Beeps" = "Soita testiäänet";
 
 /* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken.";
+"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Soita testiäänet -komento onnistui.\n\nJos et kuullut pumpun piippauksia, on todennäköistä, että pumpun kaiutin on rikki.";
 
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Soitetaan testiäänet…";
@@ -214,19 +214,19 @@
 "PM Version" = "PM-versio";
 
 /* The format string for Pod Active: (1: Pod active time string) */
-"Pod Active: %1$@\n" = "Pod Active: %1$@\n";
+"Pod Active: %1$@\n" = "Pumppu aktiivinen: %1$@\n";
 
 /* Label describing pod age view */
 "Pod Age" = "Pumpun ikä";
 
 /* The title of the device information section in settings */
-"Pod Details" = "Pod Details";
+"Pod Details" = "Pumpun tiedot";
 
 /* Title of the pod settings view controller */
 "Pod Settings" = "Pumpun asetukset";
 
 /* The format string for previous pod progress: (1: previous pod progress string) */
-"Previous pod progress: %1$@\n" = "Previous pod progress: %1$@\n";
+"Previous pod progress: %1$@\n" = "Edellinen pumpun edistyminen: %1$@\n";
 
 /* The text of the loading label when pod is primed */
 "Primed" = "Alustettu";
@@ -235,7 +235,7 @@
 "Priming…" = "Alustetaan…";
 
 /* The format string for Pulse Count (1: pulse count) */
-"Pulse Count: %1$d\n" = "Pulse Count: %1$d\n";
+"Pulse Count: %1$d\n" = "Pulssin määrä: %1$d\n";
 
 /* The title of the command to read the pod status */
 "Read Pod Status" = "Lue pumpun tila";
@@ -250,7 +250,7 @@
 "Reading Pulse Log…" = "Luetaan pulssilokia…";
 
 /* The format string for receiverLowGain: (1: receiverLowGain) */
-"Receiver Low Gain: %1$@\n" = "Receiver Low Gain: %1$@\n";
+"Receiver Low Gain: %1$@\n" = "Vastaanottimen matala vahvistus: %1$@\n";
 
 /* Label describing time remaining view */
 "Remaining" = "Jäljellä";
@@ -266,7 +266,7 @@
 "Reservoir" = "Säiliö";
 
 /* The format string for Reservoir Level: (1: reservoir level string) */
-"Reservoir Level: %1$@ U\n" = "Reservoir Level: %1$@ U\n";
+"Reservoir Level: %1$@ U\n" = "Säiliön määrä: %1$@ U\n";
 
 /* Button title for retrying pod deactivation */
 "Retry Pod Deactivation" = "Deaktivoi pumppu uudelleen";
@@ -306,7 +306,7 @@
 "TID" = "TID";
 
 /* The error message shown when Loop's basal schedule has more entries than the pod can support */
-"Too many entries" = "Liian monta basaalitasoa määritetty";
+"Too many entries" = "Liian monta basaalitasoa";
 
 /* Instructions when pod cannot be deactivated */
 "Unable to deactivate pod. Please continue and pair a new one." = "Pumpun deaktivointi ei onnistunut. Jatka ja yhdistä uusi pumppu.";
