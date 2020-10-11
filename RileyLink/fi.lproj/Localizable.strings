@@ -11,7 +11,7 @@
 "Add Minimed Pump" = "Lisää Minimed-pumppu";
 
 /* The title of the nightscout API secret credential */
-"API Secret" = "API-salasana";
+"API Secret" = "API-salausavain";
 
 /* The title of the configuration section in settings */
 "Configuration" = "Määritykset";
