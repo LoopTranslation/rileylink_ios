@@ -174,10 +174,13 @@
 /* The title for pod expiration notification */
 "Pod Expiration Notice" = "Pod udløbs påmindelse";
 
+/* Highlight string for pod expired (80hrs). */
+"Pod Expired" = "Pod udløbet";
+
 /* Description for Pod expired pod fault */
 "Pod expired" = "Pod udløbet";
 
-/* Inform the user that there is a pod fault. */
+/* Highlight string for pod faults. */
 "Pod Fault" = "Pod fejl";
 
 /* Format string for pod fault code */
