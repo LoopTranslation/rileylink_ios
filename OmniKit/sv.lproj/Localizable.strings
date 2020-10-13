@@ -48,7 +48,7 @@
 "Empty reservoir" = "Tom reservoar";
 
 /* Error message shown when empty response from pod was received */
-"Empty response from pod" = "Inget svar från pod";
+"Empty response from pod" = "Inget svar från podd";
 
 /* Pod state error event logged shutting down */
 "Error event logged, shutting down" = "Felhändelse loggad, stänger ned";
@@ -148,10 +148,10 @@
 "Please bring only original pod in range or deactivate original pod" = "Ha bara din ursprungliga podd inom räckvidd eller inaktivera ursprunglig podd";
 
 /* Recovery suggestion when no response is received from pod */
-"Please bring your pod closer to the RileyLink and try again" = "För din pod närmare din RileyLink och försök igen";
+"Please bring your pod closer to the RileyLink and try again" = "För din podd närmare din RileyLink och försök igen";
 
 /* Recover suggestion shown when no pod is paired */
-"Please pair a new pod" = "Var god parkoppla ny pod";
+"Please pair a new pod" = "Var god parkoppla ny podd";
 
 /* Recovery suggestion when pairing signal strength is too high */
 "Please reposition the RileyLink further from the pod" = "Flytta din RileyLink längre från podden";
@@ -163,22 +163,22 @@
 "Please try repositioning the pod or the RileyLink and try again" = "Pröva att flytta på podden eller din RileyLink och försök igen";
 
 /* Error message shown when user cannot pair because pod is already paired */
-"Pod already paired" = "Pod redan parkopplad";
+"Pod already paired" = "Podd redan parkopplad";
 
 /* Error message shown when prime is attempted, but pod is already primed */
-"Pod already primed" = "Pod redan fylld";
+"Pod already primed" = "Podd redan fylld";
 
 /* Description for expiration advisory alarm */
-"Pod expiration advisory alarm" = "Larm för utgångsdatum för pod";
+"Pod expiration advisory alarm" = "Larm för utgångsdatum för podd";
 
 /* The title for pod expiration notification */
-"Pod Expiration Notice" = "Notis om utgångsdatum för pod";
+"Pod Expiration Notice" = "Notis om utgångsdatum för podd";
 
 /* Highlight string for pod expired (80hrs). */
-"Pod Expired" = "Pod Expired";
+"Pod Expired" = "Poddens utgångsdatum passerat";
 
 /* Description for Pod expired pod fault */
-"Pod expired" = "Pod har utgått";
+"Pod expired" = "Poddens utgångsdatum passerat";
 
 /* Highlight string for pod faults. */
 "Pod Fault" = "Podd-fel";
@@ -206,16 +206,16 @@
 
 /* Delivery status when pod is priming
    Pod status when priming */
-"Priming" = "Pod fylls på";
+"Priming" = "Podd fylls på";
 
 /* Pod state when priming completed */
-"Priming completed" = "Infusionskateter har förfyllts";
+"Priming completed" = "Podd har fyllts färdigt med insulin";
 
 /* Pod state when ready for basal programming */
 "Ready for basal programming" = "Klar för programmering av basal";
 
 /* Pod state when ready for cannula insertion */
-"Ready to insert cannula" = "Klar att föra in kanyl";
+"Ready to insert cannula" = "Redo att föra in kanyl";
 
 /* Pod pairing reminder initialized */
 "Reminder initialized" = "Påminnelse initierad";
@@ -260,7 +260,7 @@
 "threeNotUsed" = "threeNotUsed";
 
 /* The format string for pod expiration notification body (1: time until expiration) */
-"Time to replace your pod! Your pod will expire in %1$@" = "Byt din pod! Din pod går ut om %1$@";
+"Time to replace your pod! Your pod will expire in %1$@" = "Byt din podd! Din podd går ut om %1$@";
 
 /* Recovery suggestion when ack received instead of response */
 "Try again" = "Försök igen";
@@ -278,7 +278,7 @@
 "Unexpected pod change" = "Oväntat poddbyte";
 
 /* Error message shown when empty response from pod was received */
-"Unexpected response from pod" = "Oväntat svar från din pod";
+"Unexpected response from pod" = "Oväntat svar från din podd";
 
 /* The format string for Unknown pod fault (1: The fault code value) */
 "Unknown pod fault %1$03d" = "Okänt poddfel %1$03d";

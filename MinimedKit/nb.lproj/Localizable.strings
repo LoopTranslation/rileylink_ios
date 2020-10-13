@@ -14,7 +14,7 @@
 "Basal Profile %1$@: %2$@ U/hour" = "Basalprofil  %1$@: %2$@ E/timen";
 
 /* Error description when failure due to bolus in progress */
-"Bolus in Progress" = "Bolus in Progress";
+"Bolus in Progress" = "Bolus leveres";
 
 /* Pump error code when bolus is in progress */
 "Bolus in progress" = "Bolus pågår";
@@ -53,7 +53,7 @@
 "Invalid response during %1$@: %2$@" = "Ugyldig respons ved %1$@: %2$@";
 
 /* Describing the battery chemistry as Lithium */
-"Lithium" = "Lithium";
+"Lithium" = "Litium";
 
 /* Recovery suggestion */
 "Make sure your RileyLink is nearby and powered on" = "Kontroller at din RileyLink er i nærheten og er påslått";
@@ -68,7 +68,7 @@
 "Minimed 500/700 Series" = "Minimed 500/700 series";
 
 /* Error description when no rileylink connected */
-"No RileyLink Connected" = "No RileyLink Connected";
+"No RileyLink Connected" = "Ingen RileyLink tilkoblet";
 
 /* Describing the North America pump region */
 "North America" = "Nord Amerika";
@@ -95,7 +95,7 @@
 "RileyLink radio tune failed" = "RileyLink radiotuning feilet";
 
 /* The format string description of a TempBasalPumpEvent. (1: The rate of the temp basal in minutes) */
-"Temporary Basal: %1$.3f U/hour" = "Midlertidig basaldose: %1$.3f E/timen";
+"Temporary Basal: %1$.3f U/hour" = "Midlertidig basaldose: %1$.3f IE/timen";
 
 /* The format string description of a TempBasalDurationPumpEvent. (1: The duration of the temp basal in minutes) */
 "Temporary Basal: %1$d min" = "Midlertidig basaldose: %1$d min";
@@ -104,7 +104,7 @@
 "Temporary Basal: %1$d%%" = "Midlertidig basaldose: %1$d%%";
 
 /* Error description when storage fails */
-"Unable to store pump data" = "Unable to store pump data";
+"Unable to store pump data" = "Kan ikke lagre pumpedata";
 
 /* Format string for error description for an unknown record type in a glucose page. (1: event type number) */
 "Unknown glucose record type: %$1@" = "Unknown glucose record type: %$1@";
@@ -122,5 +122,5 @@
 "Unknown response during %1$@: %2$@" = "Ukjent respons ved %1$@: %2$@";
 
 /* Describing the worldwide pump region */
-"World-Wide" = "World-Wide";
+"World-Wide" = "Verdensomspennende";
 

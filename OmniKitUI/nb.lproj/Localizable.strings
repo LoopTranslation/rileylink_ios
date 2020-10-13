@@ -27,10 +27,10 @@
 "%@U" = "%@E";
 
 /* The format string for minutes (1: number of minutes string) */
-"%1$@ minutes" = "%1$@ minutes";
+"%1$@ minutes" = "%1$@ minutter";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
-"%1$@ units remaining at %2$@" = "%1$@ units remaining at %2$@";
+"%1$@ units remaining at %2$@" = "%1$@ enheter igjen %2$@";
 
 /* Format string providing instructions for replacing pod due to a fault. (1: The fault description) */
 "%1$@. Insulin delivery has stopped. Please deactivate and remove pod." = "%1$@. Insulintilførsel har stoppet. Vennligst deaktiver og fjern pod.";
@@ -39,7 +39,7 @@
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* Instructions when deactivating pod that didn't complete activation in time. */
-"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod.";
+"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Aktiveringstid utgått. Poden må deaktiveres før paring med en ny. Deaktiver og fjern pod.";
 
 /* The title of the cell showing the pod activated at time */
 "Active Time" = "Aktiveringstidspunkt";
@@ -48,7 +48,7 @@
 "Alarms" = "Alarmer";
 
 /* The format string for Alerts: (1: the alerts string) */
-"Alerts: %1$@\n" = "Alerts: %1$@\n";
+"Alerts: %1$@\n" = "Varsler %1$@\n";
 
 /* Confirmation message for shutting down a pod */
 "Are you sure you want to shutdown this pod?" = "Er du sikker på at du vil avslutte denne poden?";
@@ -97,7 +97,7 @@
 "Delivery Limits" = "Leveringsgrenser";
 
 /* The format string for Delivery Status: (1: delivery status string) */
-"Delivery Status: %1$@\n" = "Delivery Status: %1$@\n";
+"Delivery Status: %1$@\n" = "Leveringsstatus: %1$@\n";
 
 /* The title of the device information section in settings */
 "Device Information" = "Enhetsinformasjon";
@@ -109,19 +109,19 @@
 "Disable Bolus Beeps" = "Slå av lyd ved bolus";
 
 /* Title text for button to disable confirmation beeps */
-"Disable Confirmation Beeps" = "Disable Confirmation Beeps";
+"Disable Confirmation Beeps" = "Slå av informasjonspipelyder";
 
 /* Title text for button to enable bolus beeps */
 "Enable Bolus Beeps" = "Slå på lyd ved bolus";
 
 /* Title text for button to enable confirmation beeps */
-"Enable Confirmation Beeps" = "Enable Confirmation Beeps";
+"Enable Confirmation Beeps" = "Slå på informasjonspipelyder";
 
 /* The alert title for disable bolus beeps error */
 "Error disabling bolus beeps" = "Kunne ikke slå av lyd ved bolus";
 
 /* The alert title for disable confirmation beeps error */
-"Error disabling confirmation beeps" = "Error disabling confirmation beeps";
+"Error disabling confirmation beeps" = "Feil ved deaktivering av bekreftelseslyd";
 
 /* The alert title for emitting completion beep error */
 "Error emitting completion confirmation beep" = "Error emitting completion confirmation beep";
@@ -130,7 +130,7 @@
 "Error enabling bolus beeps" = "Kunne ikke slå på lyd ved bolus";
 
 /* The alert title for enable confirmation beeps error */
-"Error enabling confirmation beeps" = "Error enabling confirmation beeps";
+"Error enabling confirmation beeps" = "Feil ved aktivering av bekreftelseslyd";
 
 /* The alert title for a resume error */
 "Error Resuming" = "Kunne ikke fortsette";
@@ -154,7 +154,7 @@
 "Fault time: %1$@\n" = "Fault time: %1$@\n";
 
 /* The format string for a fault: (1: The fault description) */
-"Fault: %1$@\n" = "Fault: %1$@\n";
+"Fault: %1$@\n" = "Feil: %1$@\n";
 
 /* The title of the command to finish pod setup */
 "Finish pod setup" = "Fullfør oppsett for pod";
@@ -163,7 +163,7 @@
 "Greater than %1$@ units remaining at %2$@" = "Flere enn %1$@ enheter gjenstår klokken %2$@";
 
 /* Additional pairing recovery suggestion on multiple pairing failures */
-"If the problem persists, move to a new area and try again" = "If the problem persists, move to a new area and try again";
+"If the problem persists, move to a new area and try again" = "Hvis problemet vedvarer, flytt til et annet område og prøv igjen";
 
 /* Instructions when deactivating pod that has been paired, but not attached. */
 "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Ufullstendig oppsatt pod må deaktiveres før sammenkobling med en ny. Vennligst deaktiver og kast pod.";
@@ -181,7 +181,7 @@
 "Invalid entry" = "Ugyldig oppføring";
 
 /* The format string for Last Bolus Not Delivered: (1: bolus not delivered string) */
-"Last Bolus Not Delivered: %1$@ U\n" = "Last Bolus Not Delivered: %1$@ U\n";
+"Last Bolus Not Delivered: %1$@ U\n" = "Siste bolus ikke levert: %1$@ Ie\n";
 
 /* The title of the cell showing the pod lot id */
 "Lot" = "Parti";
@@ -214,7 +214,7 @@
 "PM Version" = "PM Versjon";
 
 /* The format string for Pod Active: (1: Pod active time string) */
-"Pod Active: %1$@\n" = "Pod Active: %1$@\n";
+"Pod Active: %1$@\n" = "Pod aktiv: %1$@\n";
 
 /* Label describing pod age view */
 "Pod Age" = "Pod-alder";
@@ -238,10 +238,10 @@
 "Pulse Count: %1$d\n" = "Pulse Count: %1$d\n";
 
 /* The title of the command to read the pod status */
-"Read Pod Status" = "Read Pod Status";
+"Read Pod Status" = "Les pumpestatus";
 
 /* Progress message for reading Pod status. */
-"Read Pod Status…" = "Read Pod Status…";
+"Read Pod Status…" = "Les pumpestatus…";
 
 /* The title of the command to read the pulse log */
 "Read Pulse Log" = "Read Pulse Log";
@@ -266,7 +266,7 @@
 "Reservoir" = "Reservoar";
 
 /* The format string for Reservoir Level: (1: reservoir level string) */
-"Reservoir Level: %1$@ U\n" = "Reservoir Level: %1$@ U\n";
+"Reservoir Level: %1$@ U\n" = "Reservoarnivå: %1$@ IE\n";
 
 /* Button title for retrying pod deactivation */
 "Retry Pod Deactivation" = "Prøv igjen å deaktivere pod";

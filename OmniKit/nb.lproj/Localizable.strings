@@ -1,12 +1,12 @@
 /* Description for an inactive alert modifier */
-" (inactive)" = " (inactive)";
+" (inactive)" = " (inaktiv)";
 
 /* Unit format string for an RSSI value in decibles */
 "%@ dB" = "%@ dB";
 
 /* Format string for activation time exceeded
    Pod state when activation not completed in the time allowed */
-"Activation time exceeded" = "Activation time exceeded";
+"Activation time exceeded" = "Aktiveringstid utløpt";
 
 /* Description for auto-off alarm */
 "Auto-off alarm" = "Alarm for automatisk av";
@@ -57,7 +57,7 @@
 "Expiration alert" = "Utløpsalarm";
 
 /* Pod state when fault event has occurred */
-"Fault event occurred" = "Fault event occurred";
+"Fault event occurred" = "Pod-feil";
 
 /* Description for finish setup */
 "Finish setup " = "Ferdigstill oppsett";
@@ -66,10 +66,10 @@
 "Initialized" = "Klargjort";
 
 /* Pod state when inserting cannula */
-"Inserting cannula" = "Inserting cannula";
+"Inserting cannula" = "Setter inn kanyle";
 
 /* Status highlight that insulin delivery was suspended. */
-"Insulin Suspended" = "Insulin Suspended";
+"Insulin Suspended" = "Insulintilførsel stoppet";
 
 /* The format string for Internal pod fault (1: The fault code value) */
 "Internal pod fault %1$03d" = "Intern pod-feil %1$03d";
@@ -78,16 +78,16 @@
 "InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@" = "InterruptedBolus: %1$@ E (%2$@ E planlagt) %3$@ %4$@ %5$@";
 
 /* Error message for when unexpected address is received (1: received address) (2: expected address) */
-"Invalid address 0x%x. Expected 0x%x" = "Invalid address 0x%1$x. Expected 0x%2$x";
+"Invalid address 0x%x. Expected 0x%x" = "Ugyldig adresse 0x%1$x. Forventet 0x%2$x";
 
 /* Description for MessageError invalidSequence */
-"Invalid address: (%1$@)" = "Invalid address: (%1$@)";
+"Invalid address: (%1$@)" = "Ugyldig adresse: (%1$@)";
 
 /* Description for MessageError invalidCrc */
 "Invalid CRC" = "Invalid CRC";
 
 /* Pod state when running with fifty or less units */
-"Low reservoir" = "Low reservoir";
+"Low reservoir" = "Lite i reservoir";
 
 /* Description for low reservoir alarm */
 "Low reservoir advisory alarm" = "Anbefalt alarm for lavt reservoar";
@@ -102,13 +102,13 @@
 "No alerts" = "Ingen alarmer";
 
 /* Description for Fault Event Code .noFaults */
-"No faults" = "No faults";
+"No faults" = "Ingen feil";
 
 /* Status highlight that a pump is out of insulin. */
-"No Insulin" = "No Insulin";
+"No Insulin" = "Tom for insulin";
 
 /* Status highlight that when no pod is paired. */
-"No Pod" = "No Pod";
+"No Pod" = "Ingen pod";
 
 /* Error message shown when no pod is paired */
 "No pod paired" = "Ingen sammenkoblet pod";
@@ -124,7 +124,7 @@
 "Normal" = "Normal";
 
 /* Description for MessageError notEnoughData */
-"Not enough data" = "Not enough data";
+"Not enough data" = "Ikke nok data";
 
 /* Description for Occlusion detected pod fault */
 "Occlusion detected" = "Tilstoppelse oppdaget";
@@ -139,13 +139,13 @@
 "Paired" = "Sammenkoblbet";
 
 /* Pod status when pairing completed */
-"Paired completed" = "Paired completed";
+"Paired completed" = "Fylling ferdig";
 
 /* Description for MessageError parsingError */
 "Parsing Error: " = "Parsing Error: ";
 
 /* Recovery suggestion on unexpected pod change */
-"Please bring only original pod in range or deactivate original pod" = "Please bring only original pod in range or deactivate original pod";
+"Please bring only original pod in range or deactivate original pod" = "Vennligst ha bare den originale poden i området eller deaktiver den originale poden";
 
 /* Recovery suggestion when no response is received from pod */
 "Please bring your pod closer to the RileyLink and try again" = "Prøv å sette pod og RileyLink nærmere hverandre og prøv så igjen";
@@ -154,13 +154,13 @@
 "Please pair a new pod" = "Vennligst koble til ny pod";
 
 /* Recovery suggestion when pairing signal strength is too high */
-"Please reposition the RileyLink further from the pod" = "Please reposition the RileyLink further from the pod";
+"Please reposition the RileyLink further from the pod" = "Vennligst flytt RileyLink lenger bort fra poden";
 
 /* Recovery suggestion when pairing signal strength is too low */
-"Please reposition the RileyLink relative to the pod" = "Please reposition the RileyLink relative to the pod";
+"Please reposition the RileyLink relative to the pod" = "Vennligst omposisjoner RileyLink i forhold til poden";
 
 /* Recovery suggestion when no response is received from pod */
-"Please try repositioning the pod or the RileyLink and try again" = "Please try repositioning the pod or the RileyLink and try again";
+"Please try repositioning the pod or the RileyLink and try again" = "Prøv å flytte poden eller RileyLink, og prøv på nytt";
 
 /* Error message shown when user cannot pair because pod is already paired */
 "Pod already paired" = "Pod er allerede sammenkoblet";
@@ -175,13 +175,13 @@
 "Pod Expiration Notice" = "Utløpsmelding for pod";
 
 /* Highlight string for pod expired (80hrs). */
-"Pod Expired" = "Pod Expired";
+"Pod Expired" = "Pod utløpt";
 
 /* Description for Pod expired pod fault */
 "Pod expired" = "Utløpt pod";
 
 /* Highlight string for pod faults. */
-"Pod Fault" = "Pod Fault";
+"Pod Fault" = "Pod-feil";
 
 /* Format string for pod fault code */
 "Pod Fault: %1$@" = "Pod-feil: %1$@";
@@ -202,7 +202,7 @@
 "Pod setup window expired" = "Tidsvindu for oppsett av pod er utløpt";
 
 /* Format string for poor pod signal strength */
-"Poor signal strength" = "Poor signal strength";
+"Poor signal strength" = "Dårlig signalstyrke";
 
 /* Delivery status when pod is priming
    Pod status when priming */
@@ -227,13 +227,13 @@
 "Scheduled Basal" = "Planlagt basal";
 
 /* Delivery status when scheduled basal is running */
-"Scheduled basal" = "Scheduled basal";
+"Scheduled basal" = "Programmert basalhastighet";
 
 /* Description for shutdown imminent alarm */
 "Shutdown imminent alarm" = "Avslutt forestående alarm";
 
 /* Format string for pod signal strength too high */
-"Signal strength too high" = "Signal strength too high";
+"Signal strength too high" = "Signalstyrke for høy";
 
 /* The format string describing a suspend. (1: Time)(2: Scheduled certainty */
 "Suspend: %1$@ %2$@" = "Pause: %1$@ %2$@";
@@ -263,7 +263,7 @@
 "Time to replace your pod! Your pod will expire in %1$@" = "Det er på tide å bytte pod! Pod utløper om %1$@";
 
 /* Recovery suggestion when ack received instead of response */
-"Try again" = "Try again";
+"Try again" = "Prøv igjen";
 
 /* Pod state twoNotUsed */
 "twoNotUsed" = "twoNotUsed";
@@ -284,10 +284,10 @@
 "Unknown pod fault %1$03d" = "Ukjent pod-feil %1$03d";
 
 /* Format string for description of MessageError unknownValue. (1: value) (2: Type) */
-"Unknown Value (%1$@) for type %2$@" = "Unknown Value (%1$@) for type %2$@";
+"Unknown Value (%1$@) for type %2$@" = "Ukjent verdi (%1$@) for type %2$@";
 
 /* Format string for description of MessageError validationFailed. (1: description of validation failure) */
-"Validation failed: %1$@" = "Validation failed: %1$@";
+"Validation failed: %1$@" = "Validering feilet: %1$@";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
 "Wait for existing bolus to finish, or cancel bolus" = "Vent til at eksisterende bolus skal bli ferdig, eller kanseler bolus";
