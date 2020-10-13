@@ -35,7 +35,7 @@
 "HuY-fE-vM8.text" = "Om du reser till annan tidszon under en längre tid, kan du ändra tidszonen närsomhelst i Loops inställningar.";
 
 /* Class = "UILabel"; text = "Loop will keep your pumpʼs clock synchronized with your phone in the time zone youʼre in now."; ObjectID = "IQ5-53-x9s"; */
-"IQ5-53-x9s.text" = "Loop kommer att synkronisera pumpens klocka med din telefon i tidszonen du befinner dig nu.";
+"IQ5-53-x9s.text" = "Loop kommer att synkronisera pumpens klocka med din telefon i den tidszonen du nu befinner dig i.";
 
 /* Class = "UITableViewSection"; footerTitle = "The pump region and color are denoted as the last 3 letters of the the model number (labeled as REF)."; ObjectID = "lGI-LD-xR7"; */
 "lGI-LD-xR7.footerTitle" = "Pumpregion och färg är märkta som de 3 sista siffrorna i modellnumret (markerad som REF).";
