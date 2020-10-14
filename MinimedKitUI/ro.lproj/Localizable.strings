@@ -63,7 +63,7 @@
 "Delete Pump" = "Elimină pompa";
 
 /* Title text for delivery limits */
-"Delivery Limits" = "Limitarea livrării";
+"Delivery Limits" = "Limite de livrare";
 
 /* The title of the section describing the device */
 "Device" = "Dispozitiv";
@@ -105,7 +105,7 @@
 "Firmware" = "Firmware";
 
 /* The title of the cell showing the pump firmware version */
-"Firmware Version" = "Versiunea Firmware";
+"Firmware Version" = "Versiune Firmware";
 
 /* The title of the command to get pump model */
 "Get Pump Model" = "Obține modelul pompei";
@@ -129,10 +129,10 @@
 "Name" = "Denumire";
 
 /* Message display when no response from tuning pump */
-"No response" = "Nici un raspuns";
+"No response" = "Niciun răspuns";
 
 /* The title of the cell showing the last idle */
-"On Idle" = "în așteptare";
+"On Idle" = "In așteptare";
 
 /* Pump find device instruction */
 "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "Pe pompa, mergeți la ecranul \"Find Device\" și selectați \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
@@ -175,7 +175,7 @@
 "Retry" = "Reîncearcă";
 
 /* The title of the command to fetch RileyLink statistics */
-"RileyLink Statistics" = "Statisticile RileyLink-ului";
+"RileyLink Statistics" = "Statistici RileyLink";
 
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
@@ -191,7 +191,7 @@
 "Signal Strength" = "Puterea semnalului";
 
 /* A message indicating a command succeeded */
-"Succeeded" = "Succeeded";
+"Succeeded" = "Succes";
 
 /* The format string describing pump suspended state: (1: suspended) */
 "Suspended: %1$@\n" = "Suspendat: %1$@\n";
