@@ -38,7 +38,7 @@
 "Iuv-5M-bDH.text" = "Pregătiți suprafața de aplicare. Îndepărtați capacul acului din Pod și folia de protecție a adezivului. Dacă Pod-ul este OK, aplicați-l pe corp";
 
 /* Class = "UINavigationItem"; title = "Pod Pairing"; ObjectID = "jVO-Ut-MhL"; */
-"jVO-Ut-MhL.title" = "Asociere Pod";
+"jVO-Ut-MhL.title" = "Împerechere Pod";
 
 /* Class = "UITableViewController"; title = "Pump Setup"; ObjectID = "k1Y-x4-m0a"; */
 "k1Y-x4-m0a.title" = "Setare pompă";
@@ -56,7 +56,7 @@
 "vEc-Km-ewe.text" = "Etichetă";
 
 /* Class = "UILabel"; text = "Fill a new pod with insulin. Listen for 2 beeps from the pod during filling. Keep the RileyLink about 6 inches from the pod during pairing."; ObjectID = "vmF-Dc-3DS"; */
-"vmF-Dc-3DS.text" = "Umpleți un Pod nou cu insulină. Urmăriți ca Pod-ul să emită 2 beep-uri în timpul umplerii.";
+"vmF-Dc-3DS.text" = "Umpleți un Pod nou cu insulină. Urmăriți ca Pod-ul să emită 2 beep-uri în timpul umplerii. Țineți RileyLink la aproximativ 15 cm de Pod in timpul împerecherii.";
 
 /* Class = "UINavigationItem"; title = "Replace Pod"; ObjectID = "yy1-xf-HdR"; */
 "yy1-xf-HdR.title" = "Înlocuiește Pod";

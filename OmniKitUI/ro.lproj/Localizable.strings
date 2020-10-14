@@ -27,19 +27,19 @@
 "%@U" = "%@U";
 
 /* The format string for minutes (1: number of minutes string) */
-"%1$@ minutes" = "%1$@ minutes";
+"%1$@ minutes" = "%1$@ minute";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
 "%1$@ units remaining at %2$@" = "%1$@ unități rămase la %2$@";
 
 /* Format string providing instructions for replacing pod due to a fault. (1: The fault description) */
-"%1$@. Insulin delivery has stopped. Please deactivate and remove pod." = "%1$@. Administrarea insulinei a fost oprită. Trebuie să dezactivați și să detașati Pod-ul.";
+"%1$@. Insulin delivery has stopped. Please deactivate and remove pod." = "%1$@. Administrarea insulinei a fost oprită. Va rugam să dezactivați și să detașați Pod-ul.";
 
 /* The format string for displaying an offset from a time zone: (1: GMT)(2: -)(3: 4:00) */
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* Instructions when deactivating pod that didn't complete activation in time. */
-"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod.";
+"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Timpul de activare a fost depășit. Pod-ul trebuie dezactivat înainte de a asocia unul nou. Vă rugăm să dezactivați și să renunțați la pod.";
 
 /* The title of the cell showing the pod activated at time */
 "Active Time" = "Timp activ";
@@ -48,7 +48,7 @@
 "Alarms" = "Alarme";
 
 /* The format string for Alerts: (1: the alerts string) */
-"Alerts: %1$@\n" = "Alerts: %1$@\n";
+"Alerts: %1$@\n" = "Alerte: %1$@\n";
 
 /* Confirmation message for shutting down a pod */
 "Are you sure you want to shutdown this pod?" = "Sigur doriți să opriți acest Pod?";
@@ -97,40 +97,40 @@
 "Delivery Limits" = "Limite administrare";
 
 /* The format string for Delivery Status: (1: delivery status string) */
-"Delivery Status: %1$@\n" = "Delivery Status: %1$@\n";
+"Delivery Status: %1$@\n" = "Stare livrare: %1$@\n";
 
 /* The title of the device information section in settings */
 "Device Information" = "Informații dispozitiv";
 
 /* The title of the configuration section in settings */
-"Diagnostics" = "Diagnostics";
+"Diagnostics" = "Diagnostic";
 
 /* Title text for button to disable bolus beeps */
 "Disable Bolus Beeps" = "Dezactivează beep-urile de bolus";
 
 /* Title text for button to disable confirmation beeps */
-"Disable Confirmation Beeps" = "Disable Confirmation Beeps";
+"Disable Confirmation Beeps" = "Dezactivare a beep-urilor de confirmare";
 
 /* Title text for button to enable bolus beeps */
 "Enable Bolus Beeps" = "Activează beep-urile de bolus";
 
 /* Title text for button to enable confirmation beeps */
-"Enable Confirmation Beeps" = "Enable Confirmation Beeps";
+"Enable Confirmation Beeps" = "Activare beep-uri de confirmare";
 
 /* The alert title for disable bolus beeps error */
 "Error disabling bolus beeps" = "Eroare la dezactivarea beep-urilor de bolus";
 
 /* The alert title for disable confirmation beeps error */
-"Error disabling confirmation beeps" = "Error disabling confirmation beeps";
+"Error disabling confirmation beeps" = "Eroare la dezactivarea beep-urilor de confirmare";
 
 /* The alert title for emitting completion beep error */
-"Error emitting completion confirmation beep" = "Error emitting completion confirmation beep";
+"Error emitting completion confirmation beep" = "Eroare la emiterea confirmării beep-ului de finalizare";
 
 /* The alert title for enable bolus beeps error */
 "Error enabling bolus beeps" = "Eroare la activarea beep-urilor de bolus";
 
 /* The alert title for enable confirmation beeps error */
-"Error enabling confirmation beeps" = "Error enabling confirmation beeps";
+"Error enabling confirmation beeps" = "Eroare la activarea beep-urilor de confirmare";
 
 /* The alert title for a resume error */
 "Error Resuming" = "Eroare în timpul reluării";
@@ -151,10 +151,10 @@
 "Fault" = "Defecțiune";
 
 /* The format string for fault time: (1: fault time string) */
-"Fault time: %1$@\n" = "Fault time: %1$@\n";
+"Fault time: %1$@\n" = "Timp defecțiune: %1$@\n";
 
 /* The format string for a fault: (1: The fault description) */
-"Fault: %1$@\n" = "Fault: %1$@\n";
+"Fault: %1$@\n" = "Defecțiune: %1$@\n";
 
 /* The title of the command to finish pod setup */
 "Finish pod setup" = "Finalizare setare Pod";
@@ -163,7 +163,7 @@
 "Greater than %1$@ units remaining at %2$@" = "Au rămas mai mult de %1$@ unități la %2$@";
 
 /* Additional pairing recovery suggestion on multiple pairing failures */
-"If the problem persists, move to a new area and try again" = "If the problem persists, move to a new area and try again";
+"If the problem persists, move to a new area and try again" = "Dacă problema persistă, mutați într-o o zonă noua și încercați din nou";
 
 /* Instructions when deactivating pod that has been paired, but not attached. */
 "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Înainte de a asocia un Pod nou, trebuie să dezactivați orice Pod setat incomplet. Dezactivați și aruncați Pod-ul curent.";
@@ -178,10 +178,10 @@
 "Insulin Delivered" = "Insulină livrată";
 
 /* The error message shown when Loop's basal schedule has an unsupported rate */
-"Invalid entry" = "Rată invalidă";
+"Invalid entry" = "Intrare invalidă";
 
 /* The format string for Last Bolus Not Delivered: (1: bolus not delivered string) */
-"Last Bolus Not Delivered: %1$@ U\n" = "Last Bolus Not Delivered: %1$@ U\n";
+"Last Bolus Not Delivered: %1$@ U\n" = "Ultimul bolus nelivrat: %1$@ U\n";
 
 /* The title of the cell showing the pod lot id */
 "Lot" = "Lot";
@@ -205,7 +205,7 @@
 "Play Test Beeps" = "Redă beep-uri de test";
 
 /* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken.";
+"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Comanda Redare bip-uri de testare trimisă cu succes.\n\nDacă nu ați auzit nici un bip de la pod dvs., cel mai probabil difuzorul piezo din pod-ul dumneavoastră este rupt.";
 
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Beep-uri de test în desfășurare…";
@@ -214,19 +214,19 @@
 "PM Version" = "Versiune PM";
 
 /* The format string for Pod Active: (1: Pod active time string) */
-"Pod Active: %1$@\n" = "Pod Active: %1$@\n";
+"Pod Active: %1$@\n" = "Pod activ: %1$@\n";
 
 /* Label describing pod age view */
 "Pod Age" = "Vechime Pod";
 
 /* The title of the device information section in settings */
-"Pod Details" = "Pod Details";
+"Pod Details" = "Detalii Pod";
 
 /* Title of the pod settings view controller */
 "Pod Settings" = "Setări Pod";
 
 /* The format string for previous pod progress: (1: previous pod progress string) */
-"Previous pod progress: %1$@\n" = "Previous pod progress: %1$@\n";
+"Previous pod progress: %1$@\n" = "Progres pod anterior: %1$@\n";
 
 /* The text of the loading label when pod is primed */
 "Primed" = "Amorsat";
@@ -235,22 +235,22 @@
 "Priming…" = "Se amorsează…";
 
 /* The format string for Pulse Count (1: pulse count) */
-"Pulse Count: %1$d\n" = "Pulse Count: %1$d\n";
+"Pulse Count: %1$d\n" = "Pulsul: %1$d\n";
 
 /* The title of the command to read the pod status */
-"Read Pod Status" = "Read Pod Status";
+"Read Pod Status" = "Citește stare Pod";
 
 /* Progress message for reading Pod status. */
-"Read Pod Status…" = "Read Pod Status…";
+"Read Pod Status…" = "Se citește stare Pod…";
 
 /* The title of the command to read the pulse log */
-"Read Pulse Log" = "Read Pulse Log";
+"Read Pulse Log" = "Citește Jurnal Puls";
 
 /* Progress message for reading pulse log. */
-"Reading Pulse Log…" = "Reading Pulse Log…";
+"Reading Pulse Log…" = "Citire Jurnal Puls…";
 
 /* The format string for receiverLowGain: (1: receiverLowGain) */
-"Receiver Low Gain: %1$@\n" = "Receiver Low Gain: %1$@\n";
+"Receiver Low Gain: %1$@\n" = "Achiziție Receptor scăzuta: %1$@\n";
 
 /* Label describing time remaining view */
 "Remaining" = "Rămas";
@@ -266,7 +266,7 @@
 "Reservoir" = "Rezervor";
 
 /* The format string for Reservoir Level: (1: reservoir level string) */
-"Reservoir Level: %1$@ U\n" = "Reservoir Level: %1$@ U\n";
+"Reservoir Level: %1$@ U\n" = "Nivel rezervor: %1$@ U\n";
 
 /* Button title for retrying pod deactivation */
 "Retry Pod Deactivation" = "Reîncearcă dezactivarea Pod-ului";
@@ -282,7 +282,7 @@
 "Schedule" = "Planificare";
 
 /* The title of the status section in settings */
-"Status" = "Status";
+"Status" = "Stare";
 
 /* A message indicating a command succeeded */
 "Succeeded" = "Succes";
@@ -291,7 +291,7 @@
 "Suspended" = "Suspendat";
 
 /* Title text for the button to delete Omnipod PumpManager */
-"Switch from Omnipod Pumps" = "Schimbă de la pompele Omnipod";
+"Switch from Omnipod Pumps" = "Schimbă pompele Omnipod";
 
 /* Title of button to sync basal profile from pod */
 "Sync With Pod" = "Sincronizează cu Pod-ul";
