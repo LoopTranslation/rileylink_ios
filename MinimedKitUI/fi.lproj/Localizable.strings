@@ -114,7 +114,7 @@
 "Get Statistics…" = "Hae tilastotiedot…";
 
 /* Instructions on selecting an insulin data source */
-"Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "Pumpun annostelemat insuliinimäärät on mahdollista määrittää joko tulkitsemalla tapahtumahistoriaa tai arvioimalla pumppusäiliön insuliinimäärää ajan kuluessa. Tapahtumahistorian lukeminen antaa tarkemman kuvan tilanteesta ja mahdollistaa ajantasaisen tiedonsiirron Nightscoutiin, mutta toisaalta tämä kuluttaa pumpun paristoa nopeammin ja lisää radiovirheiden todennäköisyyttä siihen verrattuna, että luettaisiin ainoastaan pumppusäiliössä olevan insuliinin määrää. Jos valittua lähdettä ei voida mistä tahansa syystä käyttää, järjestelmä pyrkii käyttämään toista vaihtoehtoa.";
+"Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "Pumpun annostelemat insuliinimäärät on mahdollista määrittää joko tulkitsemalla tapahtumahistoriaa tai arvioimalla pumpun säiliön insuliinimäärää ajan kuluessa. Tapahtumahistorian lukeminen antaa tarkemman kuvan tilanteesta ja mahdollistaa ajantasaisen tiedonsiirron Nightscoutiin, mutta toisaalta tämä kuluttaa pumpun paristoa nopeammin ja lisää radiovirheiden todennäköisyyttä siihen verrattuna, että luettaisiin ainoastaan pumpun säiliössä olevan insuliinin määrää. Jos valittua lähdettä ei voida mistä tahansa syystä käyttää, järjestelmä pyrkii käyttämään toista vaihtoehtoa.";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "Viimeksi hereillä";
@@ -132,10 +132,10 @@
 "No response" = "Ei vastausta";
 
 /* The title of the cell showing the last idle */
-"On Idle" = "Valmiustilassa";
+"On Idle" = "Lepotilassa";
 
 /* Pump find device instruction */
-"On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "Mene pumppusi Etsi laite -näytölle ja valitse \"Etsi laite\".\n\n Päävalikko >\nTyökalut >\nYhdistä laitteet >\nMuut laitteet >\nPäällä >\nEtsi laite";
+"On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "Mene pumppusi Etsi laite -näytölle ja valitse \"Etsi laite\".\n\nPäävalikko >\nTyökalut >\nYhdistä laitteet >\nMuut laitteet >\nPäällä >\nEtsi laite";
 
 /* The title text for the preferred insulin data source config */
 "Preferred Data Source" = "Ensisijainen tietolähde";
@@ -172,7 +172,7 @@
 "Region" = "Alue";
 
 /* Button title to retry sentry setup */
-"Retry" = "Yritä uudelleen";
+"Retry" = "Uudelleen";
 
 /* The title of the command to fetch RileyLink statistics */
 "RileyLink Statistics" = "RileyLinkin tiedot";
@@ -194,7 +194,7 @@
 "Succeeded" = "Onnistui";
 
 /* The format string describing pump suspended state: (1: suspended) */
-"Suspended: %1$@\n" = "Annostelu pysäytetty: %1$@\n";
+"Suspended: %1$@\n" = "Pysäytetty: %1$@\n";
 
 /* The label indicating the results of each frequency trial */
 "Trials" = "Yritykset";
@@ -209,5 +209,5 @@
 "Unknown" = "Tuntematon";
 
 /* The title of the cell showing uptime */
-"Uptime" = "Toiminta-aika";
+"Uptime" = "Käyttöaika";
 

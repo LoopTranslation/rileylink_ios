@@ -145,7 +145,7 @@
 "Expired" = "Utgått";
 
 /* The title of the cell showing the pod expiration */
-"Expires" = "Utgår";
+"Expires" = "Går ut";
 
 /* Pod life HUD view label */
 "Fault" = "Fel";
@@ -263,13 +263,13 @@
 "Replace Pod Now" = "Byt podd nu";
 
 /* The title of the cell showing reservoir status */
-"Reservoir" = "Reservoar";
+"Reservoir" = "Insulinreservoar";
 
 /* The format string for Reservoir Level: (1: reservoir level string) */
 "Reservoir Level: %1$@ U\n" = "Insulinreservoarnivå: %1$@ E\n";
 
 /* Button title for retrying pod deactivation */
-"Retry Pod Deactivation" = "Försök inaktivera podden igen";
+"Retry Pod Deactivation" = "Försök att inaktivera podd igen";
 
 /* The format string for RSSI: (1: RSSI value) */
 "RSSI: %1$@\n" = "RSSI: %1$@\n";

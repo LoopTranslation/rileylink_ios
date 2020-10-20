@@ -60,7 +60,7 @@
 "Fault event occurred" = "Virhetapahtuma";
 
 /* Description for finish setup */
-"Finish setup " = "Lopeta asennus";
+"Finish setup " = "Lopeta asennus ";
 
 /* Pod inititialized */
 "Initialized" = "Alustettu";
@@ -181,10 +181,10 @@
 "Pod expired" = "Pumppu vanhentunut";
 
 /* Highlight string for pod faults. */
-"Pod Fault" = "Pumppuvirhe";
+"Pod Fault" = "Pumpun virhe";
 
 /* Format string for pod fault code */
-"Pod Fault: %1$@" = "Pumppuvirhe: %1$@";
+"Pod Fault: %1$@" = "Pumpun virhe: %1$@";
 
 /* Error message when cannula insertion fails because the pod is in an unexpected state */
 "Pod is not in a state ready for cannula insertion." = "Pumppu ei ole valmis kanyylin asettamiseen.";
@@ -281,7 +281,7 @@
 "Unexpected response from pod" = "Odottamaton vastaus pumpulta";
 
 /* The format string for Unknown pod fault (1: The fault code value) */
-"Unknown pod fault %1$03d" = "Tuntematon pumppuvirhe %1$03d";
+"Unknown pod fault %1$03d" = "Tuntematon pumpun virhe %1$03d";
 
 /* Format string for description of MessageError unknownValue. (1: value) (2: Type) */
 "Unknown Value (%1$@) for type %2$@" = "Tuntematon arvo (%1$@) tyypille %2$@";
@@ -293,7 +293,7 @@
 "Wait for existing bolus to finish, or cancel bolus" = "Odota, että meneillään oleva bolus päättyy tai kumoa bolus";
 
 /* Recovery suggestion when operation could not be completed due to existing temp basal in progress */
-"Wait for existing temp basal to finish, or suspend to cancel" = "Odota, että meneillään oleva tilapäinen basaali päättyy tai pysäytä pumppu kumotaksesi";
+"Wait for existing temp basal to finish, or suspend to cancel" = "Odota, että meneillään oleva tilapäinen basaali päättyy tai kumoa pysäyttämällä pumppu";
 
 /* Description waiting for pairing reminder */
 "Waiting for pairing reminder" = "Odotetaan yhdistämismuistutusta";

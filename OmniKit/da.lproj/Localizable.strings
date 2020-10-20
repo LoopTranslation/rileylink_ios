@@ -145,7 +145,7 @@
 "Parsing Error: " = "Fortolkningsfejl: ";
 
 /* Recovery suggestion on unexpected pod change */
-"Please bring only original pod in range or deactivate original pod" = "Hav kun den originale pod tæt på eller deaktivere original pod'e";
+"Please bring only original pod in range or deactivate original pod" = "Hav kun den originale pod tæt på eller deaktivere den original pod";
 
 /* Recovery suggestion when no response is received from pod */
 "Please bring your pod closer to the RileyLink and try again" = "Flyt pod’en tættere på din RileyLink og prøv igen";
@@ -166,7 +166,7 @@
 "Pod already paired" = "Pod allerede parret";
 
 /* Error message shown when prime is attempted, but pod is already primed */
-"Pod already primed" = "Pod allerede klargjort";
+"Pod already primed" = "Pod allerede primet";
 
 /* Description for expiration advisory alarm */
 "Pod expiration advisory alarm" = "Pod udløbs alarm";

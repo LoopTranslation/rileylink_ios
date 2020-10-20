@@ -185,7 +185,7 @@
 "Send Button Press" = "Skicka knapptryckning";
 
 /* Progress message for sending button press to pump. */
-"Sending button press…" = "Skicka knapptryckning…";
+"Sending button press…" = "Skickar knapptryckning…";
 
 /* The title of the cell showing BLE signal strength (RSSI) */
 "Signal Strength" = "Signalstyrka";
@@ -200,10 +200,10 @@
 "Trials" = "Försök";
 
 /* The title of the command to re-tune the radio */
-"Tune Radio Frequency" = "Radiofrekvens";
+"Tune Radio Frequency" = "Ställ in radiofrekvens";
 
 /* Progress message for tuning radio */
-"Tuning radio…" = "Justera radio…";
+"Tuning radio…" = "Ställer in radio…";
 
 /* The detail text for an unknown pump model */
 "Unknown" = "Okänd";
