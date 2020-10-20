@@ -8,7 +8,7 @@
 "Add Account" = "Lägg till konto";
 
 /* Title text for button to set up a new minimed pump */
-"Add Minimed Pump" = "Lägg till Minimed Pump";
+"Add Minimed Pump" = "Lägg till Minimed-pump";
 
 /* The title of the nightscout API secret credential */
 "API Secret" = "API Secret";
@@ -26,7 +26,7 @@
 "Fetch CGM" = "Hämta CGM";
 
 /* The placeholder text for the nightscout site URL credential */
-"http://mysite.herokuapp.com" = "https://min-nightscoutsida.herokuapp.com";
+"http://mysite.herokuapp.com" = "https://min_nightscoutsida.herokuapp.com";
 
 /* The title of the Nightscout service */
 "Nightscout" = "Nightscout";

@@ -60,7 +60,7 @@
 
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
-"Delete Pump" = "Fjern pumpe";
+"Delete Pump" = "Slet pumpe";
 
 /* Title text for delivery limits */
 "Delivery Limits" = "Mængdebegrænsning";
@@ -87,7 +87,7 @@
 "Error Suspending" = "Fejl i suspendering";
 
 /* The title of the command to fetch recent glucose */
-"Fetch Enlite Glucose" = "Hent seneste blodsukker";
+"Fetch Enlite Glucose" = "Hent Enlite blodsukker";
 
 /* The title of the command to fetch recent history */
 "Fetch Recent History" = "Hent seneste historie";
@@ -108,7 +108,7 @@
 "Firmware Version" = "Firmware version";
 
 /* The title of the command to get pump model */
-"Get Pump Model" = "Hent pumpe model";
+"Get Pump Model" = "Hent pumpemodel";
 
 /* Progress message for getting statistics. */
 "Get Statistics…" = "Hent statistik…";
@@ -172,7 +172,7 @@
 "Region" = "Region";
 
 /* Button title to retry sentry setup */
-"Retry" = "Prøv igen";
+"Retry" = "Forsøg igen";
 
 /* The title of the command to fetch RileyLink statistics */
 "RileyLink Statistics" = "RileyLink statistik";

@@ -14,7 +14,7 @@
 "Peripheral isnʼt connected" = "Enheten är inte ansluten";
 
 /* Response timeout error description */
-"Pump did not respond in time" = "Pumpen svarade inte inom utsatt tid";
+"Pump did not respond in time" = "Pumpen svarade inte i tid";
 
 /* Invalid response error description (1: response) */
 "Response %@ is invalid" = "Respons %@ ogiltig";
