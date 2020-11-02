@@ -27,7 +27,7 @@
 "%@U" = "%@E";
 
 /* The format string for minutes (1: number of minutes string) */
-"%1$@ minutes" = "%1$@ minutes";
+"%1$@ minutes" = "%1$@ minuten";
 
 /* Accessibility format string for (1: localized volume)(2: time) */
 "%1$@ units remaining at %2$@" = "%1$@ eenheden aanwezig op %2$@";
@@ -39,7 +39,7 @@
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* Instructions when deactivating pod that didn't complete activation in time. */
-"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod.";
+"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Activeringstijd overschreden. De pod moet worden gedeactiveerd voordat u met een nieuwe koppeling begint. Verwijder pod.";
 
 /* The title of the cell showing the pod activated at time */
 "Active Time" = "Activatie tijd";
@@ -48,7 +48,7 @@
 "Alarms" = "Alarmen";
 
 /* The format string for Alerts: (1: the alerts string) */
-"Alerts: %1$@\n" = "Alerts: %1$@\n";
+"Alerts: %1$@\n" = "Waarschuwingen: %1$@\n";
 
 /* Confirmation message for shutting down a pod */
 "Are you sure you want to shutdown this pod?" = "Weet je zeker dat je pod wilt afsluiten?";
@@ -97,13 +97,13 @@
 "Delivery Limits" = "Leveringslimieten";
 
 /* The format string for Delivery Status: (1: delivery status string) */
-"Delivery Status: %1$@\n" = "Delivery Status: %1$@\n";
+"Delivery Status: %1$@\n" = "Leveringsstatus: %1$@\n";
 
 /* The title of the device information section in settings */
 "Device Information" = "Apparaat informatie";
 
 /* The title of the configuration section in settings */
-"Diagnostics" = "Diagnostics";
+"Diagnostics" = "Diagnostiek";
 
 /* Title text for button to disable bolus beeps */
 "Disable Bolus Beeps" = "Stop gebruik Bolus Piepjes";
@@ -151,10 +151,10 @@
 "Fault" = "Fout";
 
 /* The format string for fault time: (1: fault time string) */
-"Fault time: %1$@\n" = "Fault time: %1$@\n";
+"Fault time: %1$@\n" = "Fout tijd: %1$@\n";
 
 /* The format string for a fault: (1: The fault description) */
-"Fault: %1$@\n" = "Fault: %1$@\n";
+"Fault: %1$@\n" = "Fout: %1$@\n";
 
 /* The title of the command to finish pod setup */
 "Finish pod setup" = "Rond pod setup af";
@@ -163,7 +163,7 @@
 "Greater than %1$@ units remaining at %2$@" = "Meer dan %1$@ eenheden aanwezig op %2$@";
 
 /* Additional pairing recovery suggestion on multiple pairing failures */
-"If the problem persists, move to a new area and try again" = "If the problem persists, move to a new area and try again";
+"If the problem persists, move to a new area and try again" = "Als het probleem aanhoudt, ga dan naar een andere locatie en probeer het opnieuw";
 
 /* Instructions when deactivating pod that has been paired, but not attached. */
 "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Onvolledig verbonden pod moet eerst worden gedeactiveerd voordat er geprobeerd wordt te verbinden met een nieuwe pod. Deactiveer pod en gooi weg";
@@ -181,7 +181,7 @@
 "Invalid entry" = "Ongeldige mogelijkheid";
 
 /* The format string for Last Bolus Not Delivered: (1: bolus not delivered string) */
-"Last Bolus Not Delivered: %1$@ U\n" = "Last Bolus Not Delivered: %1$@ U\n";
+"Last Bolus Not Delivered: %1$@ U\n" = "Laatste bolus niet afgeleverd: %1$@ E\n";
 
 /* The title of the cell showing the pod lot id */
 "Lot" = "Partij";
@@ -205,7 +205,7 @@
 "Play Test Beeps" = "Speel test piepjes af";
 
 /* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken.";
+"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Test beeps commando met succes verzonden.\n\nAls je geen beeps vanuit je pod hebt gehoord is het goed mogelijk dat de speaker van de pod kapot is.";
 
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Speelt test piepjes…";
@@ -214,7 +214,7 @@
 "PM Version" = "PM versie";
 
 /* The format string for Pod Active: (1: Pod active time string) */
-"Pod Active: %1$@\n" = "Pod Active: %1$@\n";
+"Pod Active: %1$@\n" = "Pod Actief: %1$@\n";
 
 /* Label describing pod age view */
 "Pod Age" = "Pod leeftijd";
@@ -226,7 +226,7 @@
 "Pod Settings" = "Pod instellingen";
 
 /* The format string for previous pod progress: (1: previous pod progress string) */
-"Previous pod progress: %1$@\n" = "Previous pod progress: %1$@\n";
+"Previous pod progress: %1$@\n" = "Vorige podvoortgang: %1$@\n";
 
 /* The text of the loading label when pod is primed */
 "Primed" = "Klaar gemaakt";
@@ -235,7 +235,7 @@
 "Priming…" = "Klaar maken…";
 
 /* The format string for Pulse Count (1: pulse count) */
-"Pulse Count: %1$d\n" = "Pulse Count: %1$d\n";
+"Pulse Count: %1$d\n" = "Pulstelling: %1$d\n";
 
 /* The title of the command to read the pod status */
 "Read Pod Status" = "Lees pompstatus";
@@ -250,7 +250,7 @@
 "Reading Pulse Log…" = "Lezen Pulse Log…";
 
 /* The format string for receiverLowGain: (1: receiverLowGain) */
-"Receiver Low Gain: %1$@\n" = "Receiver Low Gain: %1$@\n";
+"Receiver Low Gain: %1$@\n" = "Ontvanger Low Gain: %1$@\n";
 
 /* Label describing time remaining view */
 "Remaining" = "Resterend";
@@ -266,7 +266,7 @@
 "Reservoir" = "Reservoir";
 
 /* The format string for Reservoir Level: (1: reservoir level string) */
-"Reservoir Level: %1$@ U\n" = "Reservoir Level: %1$@ U\n";
+"Reservoir Level: %1$@ U\n" = "Reservoir Level: %1$@ E\n";
 
 /* Button title for retrying pod deactivation */
 "Retry Pod Deactivation" = "Probeer pod deactiveren nog een keer";

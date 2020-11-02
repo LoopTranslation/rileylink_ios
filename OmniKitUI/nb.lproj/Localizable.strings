@@ -103,7 +103,7 @@
 "Device Information" = "Enhetsinformasjon";
 
 /* The title of the configuration section in settings */
-"Diagnostics" = "Diagnostics";
+"Diagnostics" = "Diagnostikk";
 
 /* Title text for button to disable bolus beeps */
 "Disable Bolus Beeps" = "Slå av lyd ved bolus";
@@ -220,7 +220,7 @@
 "Pod Age" = "Pod-alder";
 
 /* The title of the device information section in settings */
-"Pod Details" = "Pod Details";
+"Pod Details" = "Pod detaljer";
 
 /* Title of the pod settings view controller */
 "Pod Settings" = "Pod-innstillinger";
@@ -235,7 +235,7 @@
 "Priming…" = "Fyller...";
 
 /* The format string for Pulse Count (1: pulse count) */
-"Pulse Count: %1$d\n" = "Pulse Count: %1$d\n";
+"Pulse Count: %1$d\n" = "Antall pulser: %1$d\n";
 
 /* The title of the command to read the pod status */
 "Read Pod Status" = "Les pumpestatus";
@@ -244,13 +244,13 @@
 "Read Pod Status…" = "Les pumpestatus…";
 
 /* The title of the command to read the pulse log */
-"Read Pulse Log" = "Read Pulse Log";
+"Read Pulse Log" = "Les pulslogg";
 
 /* Progress message for reading pulse log. */
-"Reading Pulse Log…" = "Reading Pulse Log…";
+"Reading Pulse Log…" = "Leser pulslogg…";
 
 /* The format string for receiverLowGain: (1: receiverLowGain) */
-"Receiver Low Gain: %1$@\n" = "Receiver Low Gain: %1$@\n";
+"Receiver Low Gain: %1$@\n" = "Mottaker lav forsterkning: %1$@\n";
 
 /* Label describing time remaining view */
 "Remaining" = "Gjenstående";
