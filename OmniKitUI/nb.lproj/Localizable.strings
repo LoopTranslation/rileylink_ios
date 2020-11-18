@@ -124,7 +124,7 @@
 "Error disabling confirmation beeps" = "Feil ved deaktivering av bekreftelseslyd";
 
 /* The alert title for emitting completion beep error */
-"Error emitting completion confirmation beep" = "Error emitting completion confirmation beep";
+"Error emitting completion confirmation beep" = "Feil under utsendelse av fullføringsbekreftelsessignal";
 
 /* The alert title for enable bolus beeps error */
 "Error enabling bolus beeps" = "Kunne ikke slå på lyd ved bolus";
@@ -151,7 +151,7 @@
 "Fault" = "Feil";
 
 /* The format string for fault time: (1: fault time string) */
-"Fault time: %1$@\n" = "Fault time: %1$@\n";
+"Fault time: %1$@\n" = "Feil tid: %1$@\n";
 
 /* The format string for a fault: (1: The fault description) */
 "Fault: %1$@\n" = "Feil: %1$@\n";
@@ -205,7 +205,7 @@
 "Play Test Beeps" = "Spill test-toner";
 
 /* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken.";
+"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Spill test pip kommando er vellykket sendt.\n\nHvis du ikke hørte pipene fra poden din, er det sannsynlig at piezo høyttaleren i poden din er ødelagt.";
 
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Spill test-toner...";
@@ -226,7 +226,7 @@
 "Pod Settings" = "Pod-innstillinger";
 
 /* The format string for previous pod progress: (1: previous pod progress string) */
-"Previous pod progress: %1$@\n" = "Previous pod progress: %1$@\n";
+"Previous pod progress: %1$@\n" = "Tidligere pod pågår: %1$@\n";
 
 /* The text of the loading label when pod is primed */
 "Primed" = "Fyllt";
