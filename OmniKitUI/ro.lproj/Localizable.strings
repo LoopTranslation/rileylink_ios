@@ -204,9 +204,6 @@
 /* The title of the command to play test beeps */
 "Play Test Beeps" = "Redă beep-uri de test";
 
-/* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Comanda Redare bip-uri de testare trimisă cu succes.\n\nDacă nu ați auzit nici un bip de la pod dvs., cel mai probabil difuzorul piezo din pod-ul dumneavoastră este rupt.";
-
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Beep-uri de test în desfășurare…";
 
@@ -251,6 +248,9 @@
 
 /* The format string for receiverLowGain: (1: receiverLowGain) */
 "Receiver Low Gain: %1$@\n" = "Achiziție Receptor scăzuta: %1$@\n";
+
+/* Button title to recheck cannula insertion during setup */
+"Recheck Cannula Insertion" = "Recheck Cannula Insertion";
 
 /* Label describing time remaining view */
 "Remaining" = "Rămas";

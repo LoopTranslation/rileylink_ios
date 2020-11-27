@@ -204,9 +204,6 @@
 /* The title of the command to play test beeps */
 "Play Test Beeps" = "Spill test-toner";
 
-/* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Spill test pip kommando er vellykket sendt.\n\nHvis du ikke hørte pipene fra poden din, er det sannsynlig at piezo høyttaleren i poden din er ødelagt.";
-
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Spill test-toner...";
 
@@ -251,6 +248,9 @@
 
 /* The format string for receiverLowGain: (1: receiverLowGain) */
 "Receiver Low Gain: %1$@\n" = "Mottaker lav forsterkning: %1$@\n";
+
+/* Button title to recheck cannula insertion during setup */
+"Recheck Cannula Insertion" = "Recheck Cannula Insertion";
 
 /* Label describing time remaining view */
 "Remaining" = "Gjenstående";

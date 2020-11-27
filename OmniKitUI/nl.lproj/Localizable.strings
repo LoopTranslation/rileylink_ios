@@ -204,9 +204,6 @@
 /* The title of the command to play test beeps */
 "Play Test Beeps" = "Speel test piepjes af";
 
-/* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, it's likely that the piezo speaker in your pod is broken." = "Test beeps commando met succes verzonden.\n\nAls je geen beeps vanuit je pod hebt gehoord is het goed mogelijk dat de speaker van de pod kapot is.";
-
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Speelt test piepjes…";
 
@@ -251,6 +248,9 @@
 
 /* The format string for receiverLowGain: (1: receiverLowGain) */
 "Receiver Low Gain: %1$@\n" = "Ontvanger Low Gain: %1$@\n";
+
+/* Button title to recheck cannula insertion during setup */
+"Recheck Cannula Insertion" = "Recheck Cannula Insertion";
 
 /* Label describing time remaining view */
 "Remaining" = "Resterend";
