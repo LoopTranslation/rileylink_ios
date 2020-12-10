@@ -204,6 +204,9 @@
 /* The title of the command to play test beeps */
 "Play Test Beeps" = "Testtöne abspielen";
 
+/* Success message for play test beeps. */
+"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled." = "Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled.";
+
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Testtöne abspielen";
 
