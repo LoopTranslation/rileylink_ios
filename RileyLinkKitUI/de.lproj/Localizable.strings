@@ -29,7 +29,7 @@
 "Firmware" = "Firmware";
 
 /* The title of the cell showing current rileylink frequency */
-"Frequency" = "Frequency";
+"Frequency" = "Frequenz";
 
 /* The title of the cell showing device name */
 "Name" = "Nombre";
@@ -41,5 +41,5 @@
 "Signal Strength" = "Signalstärke";
 
 /* The title of the cell showing uptime */
-"Uptime" = "Uptime";
+"Uptime" = "Laufzeit";
 

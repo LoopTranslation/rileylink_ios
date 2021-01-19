@@ -2,7 +2,7 @@
 "A bolus is already in progress" = "Un bolus est déjà en cours";
 
 /* The description of AlarmClockReminderPumpEvent */
-"AlarmClockReminder" = "AlarmClockReminder";
+"AlarmClockReminder" = "Alarme de rappel";
 
 /* The description of AlarmSensorPumpEvent */
 "AlarmSensor" = "AlarmSensor";
@@ -14,7 +14,7 @@
 "Basal Profile %1$@: %2$@ U/hour" = "Profil basal %1$@: %2$@ U/heure";
 
 /* Error description when failure due to bolus in progress */
-"Bolus in Progress" = "Bolus in Progress";
+"Bolus in Progress" = "Bolus en cours";
 
 /* Pump error code when bolus is in progress */
 "Bolus in progress" = "Bolus en cours";
@@ -41,13 +41,13 @@
 "Event History" = "Historique des événements";
 
 /* Error description for glucose page failing crc check */
-"Glucose page failed crc check" = "Glucose page failed crc check";
+"Glucose page failed crc check" = "Échec de la vérification (crc) de la page Glycémie";
 
 /* Pump error code when invalid history page is requested */
-"History page does not exist" = "History page does not exist";
+"History page does not exist" = "La page d'historique n'existe pas";
 
 /* Error description for history page failing crc check */
-"History page failed crc check" = "History page failed crc check";
+"History page failed crc check" = "Échec de la vérification (crc) de la page d'historique";
 
 /* Format string for failure reason. (1: The operation being performed) (2: The response data) */
 "Invalid response during %1$@: %2$@" = "Réponse invalide pendant %1$@: %2$@";
@@ -68,7 +68,7 @@
 "Minimed 500/700 Series" = "Serié Minimed 500/700";
 
 /* Error description when no rileylink connected */
-"No RileyLink Connected" = "No RileyLink Connected";
+"No RileyLink Connected" = "Aucun RileyLink connecté";
 
 /* Describing the North America pump region */
 "North America" = "Amérique du Nord";
@@ -104,13 +104,13 @@
 "Temporary Basal: %1$d%%" = "Basal Temporaire: %1$d%%";
 
 /* Error description when storage fails */
-"Unable to store pump data" = "Unable to store pump data";
+"Unable to store pump data" = "Impossible de stocker les données de la pompe";
 
 /* Format string for error description for an unknown record type in a glucose page. (1: event type number) */
-"Unknown glucose record type: %$1@" = "Unknown glucose record type: %$1@";
+"Unknown glucose record type: %$1@" = "Type de glycémie inconnu : %$1@";
 
 /* Format string for error description for an unknown record type in a history page. (1: event type number) */
-"Unknown history record type: %$1@" = "Unknown history record type: %$1@";
+"Unknown history record type: %$1@" = "Type d'historique inconnu : %$1@";
 
 /* The format string description of an unknown pump error code. (1: The specific error code raw value) */
 "Unknown pump error code: %1$@" = "Code d’erreur de pompe inconnu: %1$@";

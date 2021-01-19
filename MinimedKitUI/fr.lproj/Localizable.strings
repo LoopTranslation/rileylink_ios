@@ -1,6 +1,9 @@
 /* Unit format string for an RSSI value in decibles */
 "%@ dB" = "%@ dB";
 
+/* Format string for reservoir volume. (1: The localized volume) */
+"%@U" = "%@U";
+
 /* The format string for displaying a frequency tune trial. Extra spaces added for emphesis: (1: frequency in MHz)(2: success count)(3: total count)(4: average RSSI) */
 "%1$@  %2$@/%3$@  %4$@" = "%1$@  %2$@/%3$@  %4$@";
 
@@ -9,6 +12,9 @@
 
 /* The format string describing units of insulin remaining: (1: number of units) */
 "%1$@ Units of insulin remaining\n" = "%1$@ unités d’insuline restantes\n";
+
+/* Accessibility format string for (1: localized volume)(2: time) */
+"%1$@ units remaining at %2$@" = "%1$@ unités restants à %2$@";
 
 /* The format string for displaying an offset from a time zone: (1: GMT)(2: -)(3: 4:00) */
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
@@ -105,7 +111,7 @@
 "Firmware" = "Firmware";
 
 /* The title of the cell showing the pump firmware version */
-"Firmware Version" = "Firmware Version";
+"Firmware Version" = "Version du Firmware";
 
 /* The title of the command to get pump model */
 "Get Pump Model" = "Obtenir le modèle de pompe";
@@ -135,7 +141,7 @@
 "On Idle" = "Au Repos";
 
 /* Pump find device instruction */
-"On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device";
+"On your pump, go to the Find Device screen and select \"Find Device\".\n\nMain Menu >\nUtilities >\nConnect Devices >\nOther Devices >\nOn >\nFind Device" = "Sur votre pompe, allez à l'écran Rechercher un appareil et sélectionnez \"Trouver un appareil\".\n\nMenu principal >\nUtilitaires >\nConnecter des périphériques >\nAutres périphériques >\nSur >\nRechercher un périphérique";
 
 /* The title text for the preferred insulin data source config */
 "Preferred Data Source" = "Source de données préférée";
@@ -169,7 +175,7 @@
 "Reading pump status…" = "Lecture de l’état de la pompe…";
 
 /* The title of the cell showing the pump region */
-"Region" = "Region";
+"Region" = "Région";
 
 /* Button title to retry sentry setup */
 "Retry" = "Nouvel essai";
@@ -209,5 +215,5 @@
 "Unknown" = "Inconnu";
 
 /* The title of the cell showing uptime */
-"Uptime" = "Uptime";
+"Uptime" = "Temps de fonctionnement";
 

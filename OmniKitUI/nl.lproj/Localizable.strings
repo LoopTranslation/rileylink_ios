@@ -205,7 +205,7 @@
 "Play Test Beeps" = "Speel test piepjes af";
 
 /* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled." = "Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled.";
+"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled." = "Test beeps commando met succes verzonden.\n\nAls je geen beeps vanuit je pod hebt gehoord is het goed mogelijk dat de speaker van de pod kapot is.";
 
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Speelt test piepjes…";

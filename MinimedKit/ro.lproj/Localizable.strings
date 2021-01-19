@@ -11,7 +11,7 @@
 "Alkaline" = "Alcalină";
 
 /* The format string description of a BasalProfileStartPumpEvent. (1: The index of the profile)(2: The basal rate) */
-"Basal Profile %1$@: %2$@ U/hour" = "Profil rate bazale %1$@: %2$@ U/oră";
+"Basal Profile %1$@: %2$@ U/hour" = "Profil bazal %1$@: %2$@ U/oră";
 
 /* Error description when failure due to bolus in progress */
 "Bolus in Progress" = "Bolus în curs de administrare";

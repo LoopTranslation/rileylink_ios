@@ -9,7 +9,7 @@
 "%@ U (Finished)" = "%@ U (Terminé)";
 
 /* Format string for bolus progress. (1: The delivered amount) (2: The programmed amount) (3: the percent progress) */
-"%@ U of %@ U (%@)" = "%1$@ U of %2$@ U (%3$@)";
+"%@ U of %@ U (%@)" = "%1$@ U sur %2$@ U (%3$@)";
 
 /* Format string for temp basal rate. (1: The localized amount) */
 "%@ U/hour" = "%@ U/heure";
@@ -39,7 +39,7 @@
 "%1$@%2$@%3$@" = "%1$@%2$@%3$@";
 
 /* Instructions when deactivating pod that didn't complete activation in time. */
-"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod.";
+"Activation time exceeded. The pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Temps d'activation dépassé. Le pod doit être désactivé avant d'en appairer un nouveau. Veuillez désactiver et supprimer le pod.";
 
 /* The title of the cell showing the pod activated at time */
 "Active Time" = "Heure d’activation";
@@ -48,7 +48,7 @@
 "Alarms" = "Alarmes";
 
 /* The format string for Alerts: (1: the alerts string) */
-"Alerts: %1$@\n" = "Alerts: %1$@\n";
+"Alerts: %1$@\n" = "Alertes: %1$@\n";
 
 /* Confirmation message for shutting down a pod */
 "Are you sure you want to shutdown this pod?" = "Voulez-vous vraiment désactiver ce pod ?";
@@ -97,7 +97,7 @@
 "Delivery Limits" = "Limites d’administration";
 
 /* The format string for Delivery Status: (1: delivery status string) */
-"Delivery Status: %1$@\n" = "Delivery Status: %1$@\n";
+"Delivery Status: %1$@\n" = "Statut d'administration : %1$@\n";
 
 /* The title of the device information section in settings */
 "Device Information" = "Information de l’appareil";
@@ -109,28 +109,28 @@
 "Disable Bolus Beeps" = "Désactiver les bips de bolus";
 
 /* Title text for button to disable confirmation beeps */
-"Disable Confirmation Beeps" = "Disable Confirmation Beeps";
+"Disable Confirmation Beeps" = "Désactiver les bips de confirmation";
 
 /* Title text for button to enable bolus beeps */
 "Enable Bolus Beeps" = "Activer les bips de bolus";
 
 /* Title text for button to enable confirmation beeps */
-"Enable Confirmation Beeps" = "Enable Confirmation Beeps";
+"Enable Confirmation Beeps" = "Activer les bips de confirmation";
 
 /* The alert title for disable bolus beeps error */
 "Error disabling bolus beeps" = "Erreur lors de la désactivation des bips de bolus";
 
 /* The alert title for disable confirmation beeps error */
-"Error disabling confirmation beeps" = "Error disabling confirmation beeps";
+"Error disabling confirmation beeps" = "Erreur lors de la désactivation des bips de confirmation";
 
 /* The alert title for emitting completion beep error */
-"Error emitting completion confirmation beep" = "Error emitting completion confirmation beep";
+"Error emitting completion confirmation beep" = "Erreur lors de l'émission de la confirmation de la fin du bip sonore";
 
 /* The alert title for enable bolus beeps error */
 "Error enabling bolus beeps" = "Erreur lors de l’activation des bips de bolus";
 
 /* The alert title for enable confirmation beeps error */
-"Error enabling confirmation beeps" = "Error enabling confirmation beeps";
+"Error enabling confirmation beeps" = "Erreur lors de l'activation des bips de confirmation";
 
 /* The alert title for a resume error */
 "Error Resuming" = "Erreur lors de la reprise";
@@ -151,10 +151,10 @@
 "Fault" = "Erreur";
 
 /* The format string for fault time: (1: fault time string) */
-"Fault time: %1$@\n" = "Fault time: %1$@\n";
+"Fault time: %1$@\n" = "Date du défaut : %1$@\n";
 
 /* The format string for a fault: (1: The fault description) */
-"Fault: %1$@\n" = "Fault: %1$@\n";
+"Fault: %1$@\n" = "Défaut: %1$@\n";
 
 /* The title of the command to finish pod setup */
 "Finish pod setup" = "Terminer l’installation du pod";
@@ -163,7 +163,7 @@
 "Greater than %1$@ units remaining at %2$@" = "Plus de %1$@ unités restantes à %2$@";
 
 /* Additional pairing recovery suggestion on multiple pairing failures */
-"If the problem persists, move to a new area and try again" = "If the problem persists, move to a new area and try again";
+"If the problem persists, move to a new area and try again" = "Si le problème persiste, déplacez-vous dans un nouvel endroit et réessayer";
 
 /* Instructions when deactivating pod that has been paired, but not attached. */
 "Incompletely set up pod must be deactivated before pairing with a new one. Please deactivate and discard pod." = "Le pod mal activé doit être désactivé avant d’en appairer un nouveau. Veuillez le désactiver et le jeter.";
@@ -181,7 +181,7 @@
 "Invalid entry" = "Saisie invalide";
 
 /* The format string for Last Bolus Not Delivered: (1: bolus not delivered string) */
-"Last Bolus Not Delivered: %1$@ U\n" = "Last Bolus Not Delivered: %1$@ U\n";
+"Last Bolus Not Delivered: %1$@ U\n" = "Dernier Bolus non livré : %1$@ U\n";
 
 /* The title of the cell showing the pod lot id */
 "Lot" = "Lot";
@@ -205,7 +205,7 @@
 "Play Test Beeps" = "Jouer des bips de test";
 
 /* Success message for play test beeps. */
-"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled." = "Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled.";
+"Play test beeps command sent successfully.\n\nIf you did not hear any beeps from your pod, the piezo speaker in your pod may be broken or disabled." = "Test des bips correctement envoyé.\n\nSi vous n'avez entendu aucun bip de votre pod, le haut-parleur piézo de votre pode peut être cassé ou désactivé.";
 
 /* Progress message for play test beeps. */
 "Play Test Beeps…" = "Bips de test en cours";
@@ -214,19 +214,19 @@
 "PM Version" = "Version PM";
 
 /* The format string for Pod Active: (1: Pod active time string) */
-"Pod Active: %1$@\n" = "Pod Active: %1$@\n";
+"Pod Active: %1$@\n" = "Pod Actif: %1$@\n";
 
 /* Label describing pod age view */
 "Pod Age" = " ge du pod";
 
 /* The title of the device information section in settings */
-"Pod Details" = "Pod Details";
+"Pod Details" = "Détails du Pod";
 
 /* Title of the pod settings view controller */
 "Pod Settings" = "Réglages du pod";
 
 /* The format string for previous pod progress: (1: previous pod progress string) */
-"Previous pod progress: %1$@\n" = "Previous pod progress: %1$@\n";
+"Previous pod progress: %1$@\n" = "Progression du pod précédent: %1$@\n";
 
 /* The text of the loading label when pod is primed */
 "Primed" = "Amorcé";
@@ -235,25 +235,25 @@
 "Priming…" = "Amorçage en cours";
 
 /* The format string for Pulse Count (1: pulse count) */
-"Pulse Count: %1$d\n" = "Pulse Count: %1$d\n";
+"Pulse Count: %1$d\n" = "Nombre d’impulsions : %1$d\n";
 
 /* The title of the command to read the pod status */
-"Read Pod Status" = "Read Pod Status";
+"Read Pod Status" = "Lire l’état de la pompe";
 
 /* Progress message for reading Pod status. */
-"Read Pod Status…" = "Read Pod Status…";
+"Read Pod Status…" = "Lire l’état de la pompe…";
 
 /* The title of the command to read the pulse log */
-"Read Pulse Log" = "Read Pulse Log";
+"Read Pulse Log" = "Lire le journal des impulsions";
 
 /* Progress message for reading pulse log. */
-"Reading Pulse Log…" = "Reading Pulse Log…";
+"Reading Pulse Log…" = "Lecture du journal des impulsions…";
 
 /* The format string for receiverLowGain: (1: receiverLowGain) */
-"Receiver Low Gain: %1$@\n" = "Receiver Low Gain: %1$@\n";
+"Receiver Low Gain: %1$@\n" = "Récepteur Faible gain: %1$@\n";
 
 /* Button title to recheck cannula insertion during setup */
-"Recheck Cannula Insertion" = "Recheck Cannula Insertion";
+"Recheck Cannula Insertion" = "Revérifiez l’insertion de la canule";
 
 /* Label describing time remaining view */
 "Remaining" = "Restant";
@@ -269,7 +269,7 @@
 "Reservoir" = "Réservoir";
 
 /* The format string for Reservoir Level: (1: reservoir level string) */
-"Reservoir Level: %1$@ U\n" = "Reservoir Level: %1$@ U\n";
+"Reservoir Level: %1$@ U\n" = "Niveau du réservoir : %1$@ U\n";
 
 /* Button title for retrying pod deactivation */
 "Retry Pod Deactivation" = "Réessayez la désactivation du pod";

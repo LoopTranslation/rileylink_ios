@@ -1,111 +1,111 @@
 /* Description for an inactive alert modifier */
-" (inactive)" = " (inactive)";
+" (inactive)" = " (inaktiv)";
 
 /* Pod state when activation not completed in the time allowed */
-"Activation time exceeded" = "Activation time exceeded";
+"Activation time exceeded" = "Tid för aktivering överskriden";
 
 /* Description for auto-off alarm */
-"Auto-off alarm" = "Auto-off alarm";
+"Auto-off alarm" = "Auto-av larm";
 
 /* Pod state when basal initialized */
-"Basal initialized" = "Basal initialized";
+"Basal initialized" = "Basal initierad";
 
 /* Pod state when running below fifty units */
-"Below 50 units" = "Below 50 units";
+"Below 50 units" = "Under 50 enheter";
 
 /* Error message shown when operation could not be completed due to existing bolus in progress */
-"Bolus in progress" = "Bolus in progress";
+"Bolus in progress" = "Bolus pågår";
 
 /* The format string describing a bolus. (1: The amount delivered)(2: Start time of the dose)(3: duration)(4: scheduled certainty) */
-"Bolus: %1$@U %2$@ %3$@ %4$@" = "Bolus: %1$@U %2$@ %3$@ %4$@";
+"Bolus: %1$@U %2$@ %3$@ %4$@" = "Bolus: %1$@E %2$@ %3$@ %4$@";
 
 /* Delivery status when bolusing */
-"Bolusing" = "Bolusing";
+"Bolusing" = "Ger bolus";
 
 /* Delivery status when bolusing and temp basal is running */
-"Bolusing with temp basal" = "Bolusing with temp basal";
+"Bolusing with temp basal" = "Ger bolus med pågående temporär basal";
 
 /* Pod state when inserting cannula */
-"Cannula inserting" = "Cannula inserting";
+"Cannula inserting" = "Kanyl förs in";
 
 /* String describing a dose that was certainly scheduled */
-"Certain" = "Certain";
+"Certain" = "Säker";
 
 /* Pod state when pod has been deactivated */
-"Deactivated" = "Deactivated";
+"Deactivated" = "Inaktiverad";
 
 /* Description for Empty reservoir pod fault */
-"Empty reservoir" = "Empty reservoir";
+"Empty reservoir" = "Tom reservoar";
 
 /* Error message shown when empty response from pod was received */
-"Empty response from pod" = "Empty response from pod";
+"Empty response from pod" = "Inget svar från podd";
 
 /* Pod state error event logged shutting down */
-"Error event logged, shutting down" = "Error event logged, shutting down";
+"Error event logged, shutting down" = "Felhändelse loggad, stänger ned";
 
 /* Description for expiration alert */
-"Expiration alert" = "Expiration alert";
+"Expiration alert" = "Larm om utgångsdatum";
 
 /* Pod state when fault event has occurred */
-"Fault event occurred" = "Fault event occurred";
+"Fault event occurred" = "Felhändelse inträffade";
 
 /* Description for finish setup */
-"Finish setup " = "Finish setup ";
+"Finish setup " = "Gör färdigt podddinställningen ";
 
 /* Pod inititialized */
-"Initialized" = "Initialized";
+"Initialized" = "Initierad";
 
 /* Pod state when inserting cannula */
-"Inserting cannula" = "Inserting cannula";
+"Inserting cannula" = "Kanyl förs in";
 
 /* The format string for Internal pod fault (1: The fault code value) */
-"Internal pod fault %1$03d" = "Internal pod fault %1$03d";
+"Internal pod fault %1$03d" = "Internt poddfel %1$03d";
 
 /* The format string describing a bolus that was interrupted. (1: The amount delivered)(2: The amount scheduled)(3: Start time of the dose)(4: duration)(5: scheduled certainty) */
-"InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@" = "InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@";
+"InterruptedBolus: %1$@ U (%2$@ U scheduled) %3$@ %4$@ %5$@" = "AvbrutenBolus: %1$@ E (%2$@ E schemalagd) %3$@ %4$@ %5$@";
 
 /* Description for MessageError invalidSequence */
-"Invalid address: (%1$@)" = "Invalid address: (%1$@)";
+"Invalid address: (%1$@)" = "Ogiltig adress: (%1$@)";
 
 /* Description for MessageError invalidCrc */
-"Invalid CRC" = "Invalid CRC";
+"Invalid CRC" = "Ogiltigt CRC";
 
 /* Pod state when running with fifty or less units */
-"Low reservoir" = "Low reservoir";
+"Low reservoir" = "Låg reservoarvolym";
 
 /* Description for low reservoir alarm */
-"Low reservoir advisory alarm" = "Low reservoir advisory alarm";
+"Low reservoir advisory alarm" = "Larm vid låg reservoarvolym";
 
 /* Recovery suggestion when no RileyLink is available */
-"Make sure your RileyLink is nearby and powered on" = "Make sure your RileyLink is nearby and powered on";
+"Make sure your RileyLink is nearby and powered on" = "Säkerställ att din RileyLink är nära och påslagen";
 
 /* Pod memory initialized */
-"Memory initialized" = "Memory initialized";
+"Memory initialized" = "Minne initierat";
 
 /* Pod alert state when no alerts are active */
-"No alerts" = "No alerts";
+"No alerts" = "Inga larm";
 
 /* Description for Fault Event Code .noFaults */
-"No faults" = "No faults";
+"No faults" = "Inga fel";
 
 /* Error message shown when no pod is paired */
-"No pod paired" = "No pod paired";
+"No pod paired" = "Ingen podd har parkopplats";
 
 /* Error message shown when no response from pod was received */
-"No response from pod" = "No response from pod";
+"No response from pod" = "Inget svar från podd";
 
 /* Error message shown when no response from pod was received */
-"No RileyLink available" = "No RileyLink available";
+"No RileyLink available" = "Ingen RileyLink tillgänglig";
 
 /* Delivery status when basal is running
    Pod state when running above fifty units */
 "Normal" = "Normal";
 
 /* Description for MessageError notEnoughData */
-"Not enough data" = "Not enough data";
+"Not enough data" = "Inte tillräckligt med data";
 
 /* Description for Occlusion detected pod fault */
-"Occlusion detected" = "Occlusion detected";
+"Occlusion detected" = "Ocklusion upptäckt";
 
 /* Generic title of the omnipod pump manager */
 "Omnipod" = "Omnipod";
@@ -114,13 +114,13 @@
 "oneNotUsed" = "oneNotUsed";
 
 /* Pod status after pairing */
-"Paired" = "Paired";
+"Paired" = "Parkopplad";
 
 /* Pod status when pairing completed */
-"Paired completed" = "Paired completed";
+"Paired completed" = "Parkoppling lyckades";
 
 /* Description for MessageError parsingError */
-"Parsing Error: " = "Parsing Error: ";
+"Parsing Error: " = "Tolkningsfel: ";
 
 /* Recovery suggestion when no response is received from pod */
 "Please bring your pod closer to the RileyLink and try again" = "För din podd närmare din RileyLink och försök igen";
@@ -226,19 +226,19 @@
 "Uncertain" = "Osäker";
 
 /* Description for MessageError invalidSequence */
-"Unexpected message sequence number" = "Unexpected message sequence number";
+"Unexpected message sequence number" = "Oväntat meddelandesekvensnummer";
 
 /* Error message shown when empty response from pod was received */
-"Unexpected response from pod" = "Unexpected response from pod";
+"Unexpected response from pod" = "Oväntat svar från din podd";
 
 /* The format string for Unknown pod fault (1: The fault code value) */
-"Unknown pod fault %1$03d" = "Unknown pod fault %1$03d";
+"Unknown pod fault %1$03d" = "Okänt poddfel %1$03d";
 
 /* Format string for description of MessageError unknownValue. (1: value) (2: Type) */
-"Unknown Value (%1$@) for type %2$@" = "Unknown Value (%1$@) for type %2$@";
+"Unknown Value (%1$@) for type %2$@" = "Okänt värde (%1$@) av typ %2$@";
 
 /* Format string for description of MessageError validationFailed. (1: description of validation failure) */
-"Validation failed: %1$@" = "Validation failed: %1$@";
+"Validation failed: %1$@" = "Validering misslyckades: %1$@";
 
 /* Recovery suggestion when operation could not be completed due to existing bolus in progress */
 "Wait for existing bolus to finish, or cancel bolus" = "Vänta tills pågående bolus är färdig, eller avbryt bolus";
@@ -247,5 +247,5 @@
 "Wait for existing temp basal to finish, or suspend to cancel" = "Vänta tills nuvarande temporära basal är färdig, eller pausa för att avbryta";
 
 /* Description waiting for pairing reminder */
-"Waiting for pairing reminder" = "Waiting for pairing reminder";
+"Waiting for pairing reminder" = "Väntar på påminnelse för parkoppling";
 
