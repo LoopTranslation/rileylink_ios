@@ -64,6 +64,9 @@
 /* The title of the cell showing BLE connection state */
 "Connection State" = "连接状态";
 
+/* Text for continue button */
+"Continue" = "Continue";
+
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
 "Delete Pump" = "删除泵";
@@ -121,6 +124,9 @@
 
 /* Instructions on selecting an insulin data source */
 "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "可以通过解释事件历史记录或比较随时间推移的储存容量来确定胰岛素输注总量。阅读事件历史记录可以获得更精确的胰岛素输注量并将最新的数据上传到Nightscout，但该方式会造成更快的电池消耗以及可能造成Rileylink通信失败概率增大。如果选中的方式无法正常工作，系统将自动尝试运行另一个方案。";
+
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Insulin Type";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "最近唤醒";
@@ -186,6 +192,9 @@
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "同步设置到泵…";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pump." = "Select the type of insulin that you will be using in this pump.";
 
 /* The title of the command to send a button press */
 "Send Button Press" = "发送亮屏指令";

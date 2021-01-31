@@ -64,6 +64,9 @@
 /* The title of the cell showing BLE connection state */
 "Connection State" = "接続状態";
 
+/* Text for continue button */
+"Continue" = "Continue";
+
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
 "Delete Pump" = "ポンプを削除";
@@ -121,6 +124,9 @@
 
 /* Instructions on selecting an insulin data source */
 "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "インスリン注入は、イベント履歴を解釈する、またはリザーバの残量を計ることにより決定されます。イベント履歴を読み取ることにより、ステータスグラフがより正確になり、Nightscoutに最新のトリートメントデータをアップロードできます。リザーバの残量のみを計るよりも、ポンプの電池寿命が短くなり、無線周波数のエラーが増える可能性があります。選択されているデータソースが何らかの事情により使えない場合は、システムはもう片方のソースを使用します。";
+
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Insulin Type";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "受信";
@@ -186,6 +192,9 @@
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "ポンプに保存…";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pump." = "Select the type of insulin that you will be using in this pump.";
 
 /* The title of the command to send a button press */
 "Send Button Press" = "ボタン押しを送信";

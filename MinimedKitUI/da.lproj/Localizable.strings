@@ -64,6 +64,9 @@
 /* The title of the cell showing BLE connection state */
 "Connection State" = "Status på forbindelse";
 
+/* Text for continue button */
+"Continue" = "Fortsæt";
+
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
 "Delete Pump" = "Slet pumpe";
@@ -121,6 +124,9 @@
 
 /* Instructions on selecting an insulin data source */
 "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "Levering af insulin kan blive bestemt fra pumpen ved enten at tolke på begivenheds historikken eller ved at sammenligne volumen af reservoiret over tid. Aflæsning af begivenheds historik kan give mere præcise status grafer og uploading af up-to-date behandlings data til Nightscout, ved bekostning af hurtigere dræning af pumpe batteriet, risiko for højere fejlrate i radiokommunikation i forhold til aflæsning af volumen af reservoiret. Hvis den valgte kilde ikke kan anvendes, af en eller anden grund, så vil systemet falde tilbage på den anden mulighed.";
+
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Insulin type";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "Senest vågen";
@@ -186,6 +192,9 @@
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "Gem på pumpen…";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pump." = "Vælg den type insulin, du skal bruge i denne pumpe.";
 
 /* The title of the command to send a button press */
 "Send Button Press" = "Send \"knap tryk\"";

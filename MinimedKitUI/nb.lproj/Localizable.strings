@@ -64,6 +64,9 @@
 /* The title of the cell showing BLE connection state */
 "Connection State" = "Tilkoblingsstatus";
 
+/* Text for continue button */
+"Continue" = "Fortsett";
+
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
 "Delete Pump" = "Slette pumpe";
@@ -121,6 +124,9 @@
 
 /* Instructions on selecting an insulin data source */
 "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "Insulintilførsel kan hentes fra pumpa, enten ved å tolke hendelsehistorikken, eller ved å sammenligne reservoarvolumet over tid. Ved å lese hendelsehistorikken får man mer nøyaktig statuskurve og kan laste opp oppdaterte hendelser til Nightscout. Ulempen er høyere batteriforbruk i pumpa, og muligheten for større antall feil ved radiokommunikasjon - sammenlignet med å bare lese reservoarvolumet. Hvis den valgte kilden av noen grunn ikke kan brukes, vill systemet prøve den andre måten.";
+
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Insulin Type";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "Sist aktiv";
@@ -186,6 +192,9 @@
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "Lagre til pumpe…";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pump." = "Velg hvilken type insulin du skal bruke i denne pumpen.";
 
 /* The title of the command to send a button press */
 "Send Button Press" = "Send tastetrykk";

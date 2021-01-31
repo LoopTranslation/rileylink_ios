@@ -64,6 +64,9 @@
 /* The title of the cell showing BLE connection state */
 "Connection State" = "Yhteyden tila";
 
+/* Text for continue button */
+"Continue" = "Continue";
+
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
 "Delete Pump" = "Poista pumppu";
@@ -121,6 +124,9 @@
 
 /* Instructions on selecting an insulin data source */
 "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "Pumpun annostelemat insuliinimäärät on mahdollista määrittää joko tulkitsemalla tapahtumahistoriaa tai arvioimalla pumpun säiliön insuliinimäärää ajan kuluessa. Tapahtumahistorian lukeminen antaa tarkemman kuvan tilanteesta ja mahdollistaa ajantasaisen tiedonsiirron Nightscoutiin, mutta toisaalta tämä kuluttaa pumpun paristoa nopeammin ja lisää radiovirheiden todennäköisyyttä siihen verrattuna, että luettaisiin ainoastaan pumpun säiliössä olevan insuliinin määrää. Jos valittua lähdettä ei voida mistä tahansa syystä käyttää, järjestelmä pyrkii käyttämään toista vaihtoehtoa.";
+
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Insulin Type";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "Viimeksi hereillä";
@@ -186,6 +192,9 @@
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "Tallenna pumppuun…";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pump." = "Select the type of insulin that you will be using in this pump.";
 
 /* The title of the command to send a button press */
 "Send Button Press" = "Lähetä napin painallus";

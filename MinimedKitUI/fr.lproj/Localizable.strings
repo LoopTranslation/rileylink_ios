@@ -64,6 +64,9 @@
 /* The title of the cell showing BLE connection state */
 "Connection State" = "Etat de connexion";
 
+/* Text for continue button */
+"Continue" = "Continuer";
+
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
 "Delete Pump" = "Supprimer la pompe";
@@ -121,6 +124,9 @@
 
 /* Instructions on selecting an insulin data source */
 "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "Les données d’administration de l’insuline sont obtenus de la pompe soit en regardant l’historique des événements, soit en comparant le niveau du réservoir avant/après. Regardant l’historique des événements permet un graphique des donnés plus fiable ainsi qu’un téléchargement plus à jour sur Nightscout, au prix d’une baisse plus rapide du niveau de la pile et de plus de probabilité d’erreur de radio comparé à la lecture du niveau du réservoir. Si une de ces options ne marche pas, le système essayera de revenir à l’autre option par défaut.";
+
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Type d'Insuline";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "Dernier réveille";
@@ -186,6 +192,9 @@
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "Enregistrer dans la pompe…";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pump." = "Sélectionnez le type d'insuline que vous utiliserez dans cette pompe.";
 
 /* The title of the command to send a button press */
 "Send Button Press" = "Envoyer appui de bouton";

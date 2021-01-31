@@ -177,6 +177,9 @@
 /* The title of the cell showing delivered insulin */
 "Insulin Delivered" = "Abgegebenes Insulin";
 
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Insulintyp";
+
 /* The error message shown when Loop's basal schedule has an unsupported rate */
 "Invalid entry" = "Ungültiger Eintrag";
 
@@ -283,6 +286,9 @@
 
 /* The detail text of the basal row when pod is running scheduled basal */
 "Schedule" = "Voreingestellt";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pod." = "Wählen Sie die Art von Insulin, die Sie in diesen Pod verwenden werden.";
 
 /* The title of the status section in settings */
 "Status" = "Status";

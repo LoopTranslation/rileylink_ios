@@ -64,6 +64,9 @@
 /* The title of the cell showing BLE connection state */
 "Connection State" = "Stato di Connessione";
 
+/* Text for continue button */
+"Continue" = "Continue";
+
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
 "Delete Pump" = "Elimina Microinfusore";
@@ -121,6 +124,9 @@
 
 /* Instructions on selecting an insulin data source */
 "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "L'insulina somministrata può essere determinata dalla pompa sia interpretando la cronologia eventi o confrontando il volume del serbatoio nel tempo. La lettura della cronologia degli eventi consente una statistica più accurata e trasmette dati sempre aggiornati a Nightscout, a discapito di un maggiore consumo di batteria e con la possibilità di incorrere in un maggior tasso di errore di comunicazione rispetto alla sola lettura del volume del serbatoio. Se la sorgente selezionata non può essere utilizzata per qualsiasi ragione, il sistema tenterà di ripiegare sull'altra opzione.";
+
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Insulin Type";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "Ultimo risveglio";
@@ -186,6 +192,9 @@
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "Salva su Microinfusore…";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pump." = "Select the type of insulin that you will be using in this pump.";
 
 /* The title of the command to send a button press */
 "Send Button Press" = "Invia prova pressione Pulsante";

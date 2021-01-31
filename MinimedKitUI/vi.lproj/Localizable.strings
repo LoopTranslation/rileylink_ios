@@ -64,6 +64,9 @@
 /* The title of the cell showing BLE connection state */
 "Connection State" = "Tình trạng Kết nối";
 
+/* Text for continue button */
+"Continue" = "Continue";
+
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
 "Delete Pump" = "Xóa bơm";
@@ -121,6 +124,9 @@
 
 /* Instructions on selecting an insulin data source */
 "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "Việc tiêm insulin có thể được quyết định từ bơm bằng cách kết hợp giải thuật dữ liệu của người sử dụng và so sánh với khối lượngngăn chứa insulin theo thời gian. Việc đọc các dữ liệu cũ sẽ đảm bảo biểu đồ đường huyết luôn được tính chính xác và tải dữ liệu điều trị cập nhật lên Nightscout, nhưng lại tăng việc tiêu hao pin cũng như lỗi giao tiếp tần số radio cao hơn việc chỉ đọc mỗi dữ liệu ngăn chứa insulin. Trong trường hợp nguồn dữ liệu không được lựa chọn vì bất kỳ lý do gì thì phần mềm sẽ quay sang lựa chọn khác.";
+
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Insulin Type";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "Lần giao tiếp cuối cùng";
@@ -186,6 +192,9 @@
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "Lưu vào bơm…";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pump." = "Select the type of insulin that you will be using in this pump.";
 
 /* The title of the command to send a button press */
 "Send Button Press" = "Gửi nút bấm";

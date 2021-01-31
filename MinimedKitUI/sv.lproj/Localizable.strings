@@ -64,6 +64,9 @@
 /* The title of the cell showing BLE connection state */
 "Connection State" = "Anslutningsstatus";
 
+/* Text for continue button */
+"Continue" = "Continue";
+
 /* Button title to delete pump
    Title text for the button to remove a pump from Loop */
 "Delete Pump" = "Radera pump";
@@ -121,6 +124,9 @@
 
 /* Instructions on selecting an insulin data source */
 "Insulin delivery can be determined from the pump by either interpreting the event history or comparing the reservoir volume over time. Reading event history allows for a more accurate status graph and uploading up-to-date treatment data to Nightscout, at the cost of faster pump battery drain and the possibility of a higher radio error rate compared to reading only reservoir volume. If the selected source cannot be used for any reason, the system will attempt to fall back to the other option." = "Mängd doserat insulin kan bestämmas antingen genom att tolka händelsehistoriken från pumpen eller genom att jämföra reservoarvolymen över tid. Att läsa av händelsehistoriken tillåter ett mer korrekt status-diagram och mer aktuella behandlingsdata för uppladdning till Nightscout, men laddar ur batteriet snabbare och ökar risken för andel eventuella radiofel jämfört med avläsning av endast reservoarvolym. Om det ena alternativet av någon anledning inte kan användas, försöker systemet med det andra alternativet.";
+
+/* Controller title for insulin type selection screen */
+"Insulin Type" = "Insulin Type";
 
 /* The title of the cell describing an awake radio */
 "Last Awake" = "Senast vaken";
@@ -186,6 +192,9 @@
 /* Title of button to save basal profile to pump
    Title of button to save delivery limit settings to pump */
 "Save to Pump…" = "Spara till pump…";
+
+/* Title text for insulin type confirmation page */
+"Select the type of insulin that you will be using in this pump." = "Select the type of insulin that you will be using in this pump.";
 
 /* The title of the command to send a button press */
 "Send Button Press" = "Skicka knapptryckning";
